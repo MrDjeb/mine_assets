@@ -1,0 +1,60 @@
+INFO: Classes for registry class minetweaker.mods.ic2.ClassRegistry not found, skipping
+INFO: Loaded class registry: NEI mod support
+INFO: Loaded class registry: MFR mod support
+INFO: MineTweaker: Building registry
+INFO: MineTweaker: Sucessfully built item registry
+INFO: Adding command minetweaker
+INFO: Adding minetweaker command mfr
+ERROR: MineTweakerRecipeMaker.zs:27: Could not resolve <waystones : warpStone>
+ERROR: MineTweakerRecipeMaker.zs:98: Could not resolve <waystones : warpStone>
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 2 recipes
+INFO: Removing 2 recipes
+INFO: Removing 2 recipes
+INFO: Removing 2 recipes
+ERROR: Error executing MineTweakerRecipeMaker.zs: null
+java.lang.NullPointerException
+	at minetweaker.mc1710.recipes.MCRecipeManager.remove(MCRecipeManager.java:89)
+	at MineTweakerRecipeMaker.__script__(MineTweakerRecipeMaker.zs:27)
+	at __ZenMain__.run(MineTweakerRecipeMaker.zs)
+	at minetweaker.runtime.MTTweaker.load(MTTweaker.java:163)
+	at minetweaker.MineTweakerImplementationAPI.reload(MineTweakerImplementationAPI.java:682)
+	at minetweaker.MineTweakerImplementationAPI.onServerStart(MineTweakerImplementationAPI.java:591)
+	at minetweaker.mc1710.MineTweakerMod.onServerAboutToStart(MineTweakerMod.java:167)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:532)
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119)
+	at cpw.mods.fml.common.Loader.serverAboutToStart(Loader.java:859)
+	at cpw.mods.fml.common.FMLCommonHandler.handleServerAboutToStart(FMLCommonHandler.java:273)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:256)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)

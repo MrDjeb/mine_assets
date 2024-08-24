@@ -438,12 +438,12 @@
       "fluid": [["Iron",72]]
     },
     {
-      "input": ["item","hbm:item.powder_asbestos",1,32767],
-      "solid": ["hbm:item.ingot_asbestos"]
-    },
-    {
       "input": ["item","hbm:item.casing_50",1,32767],
       "solid": ["hbm:item.ingot_copper"]
+    },
+    {
+      "input": ["item","hbm:item.powder_asbestos",1,32767],
+      "solid": ["hbm:item.ingot_asbestos"]
     },
     {
       "input": ["dict","ingotPlutonium241"],
@@ -1095,12 +1095,12 @@
       "fluid": [["Tungsten",360],["Lead",144]]
     },
     {
-      "input": ["item","hbm:item.powder_beryllium",1,32767],
-      "solid": ["hbm:item.ingot_beryllium"]
-    },
-    {
       "input": ["item","hbm:item.combine_scrap",1,32767],
       "solid": ["hbm:item.ingot_combine_steel"]
+    },
+    {
+      "input": ["item","hbm:item.powder_beryllium",1,32767],
+      "solid": ["hbm:item.ingot_beryllium"]
     },
     {
       "input": ["dict","nuggetDineutronium"],

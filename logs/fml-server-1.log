@@ -1,0 +1,1157 @@
+[15:07:29] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[15:07:29] [main/INFO] [FML/]: Forge Mod Loader version 7.99.40.1614 for Minecraft 1.7.10 loading
+[15:07:29] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_421, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_421
+[15:07:29] [main/DEBUG] [FML/]: Java classpath at launch is C:\Users\Барабулька\Desktop\server\forge-1.7.10-10.13.4.1614-1.7.10-universal.jar
+[15:07:29] [main/DEBUG] [FML/]: Java library path at launch is C:\Program Files\Java\jre1.8.0_421\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Барабулька\AppData\Local\Microsoft\WindowsApps;;.
+[15:07:29] [main/DEBUG] [FML/]: Enabling runtime deobfuscation
+[15:07:29] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[15:07:29] [main/DEBUG] [FML/]: Added access transformer class cpw.mods.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[15:07:29] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[15:07:29] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[15:07:29] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.transformers.ForgeAccessTransformer to enqueued access transformers
+[15:07:29] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[15:07:29] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[15:07:29] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to C:\Users\Барабулька\Desktop\server\.
+[15:07:29] [main/DEBUG] [FML/]: Discovering coremods
+[15:07:29] [main/DEBUG] [FML/]: Examining for coremod candidacy +unimixins-all-1.7.10-0.1.17.jar
+[15:07:29] [main/INFO] [FML/]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from +unimixins-all-1.7.10-0.1.17.jar
+[15:07:29] [main/DEBUG] [FML/]: Examining for coremod candidacy ae2stuff-0.8.2-GTNH.jar
+[15:07:29] [main/DEBUG] [FML/]: Not found coremod data in ae2stuff-0.8.2-GTNH.jar
+[15:07:29] [main/DEBUG] [FML/]: Examining for coremod candidacy angelica-1.0.0-beta4.jar
+[15:07:29] [main/INFO] [FML/]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from angelica-1.0.0-beta4.jar
+[15:07:29] [main/DEBUG] [FML/]: Examining for coremod candidacy AnimationAPI-1.7.10-1.2.4.jar
+[15:07:29] [main/DEBUG] [FML/]: Not found coremod data in AnimationAPI-1.7.10-1.2.4.jar
+[15:07:29] [main/DEBUG] [FML/]: Examining for coremod candidacy AppleCore-mc1.7.10-3.1.1.jar
+[15:07:29] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in AppleCore-mc1.7.10-3.1.1.jar, it will be examined later for regular @Mod instances
+[15:07:29] [main/DEBUG] [FML/]: Instantiating coremod class AppleCore
+[15:07:31] [main/DEBUG] [FML/]: The coremod squeek.applecore.AppleCore requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[15:07:31] [main/DEBUG] [FML/]: Enqueued coremod AppleCore
+[15:07:31] [main/DEBUG] [FML/]: Examining for coremod candidacy appliedenergistics2-rv3-beta-421-GTNH.jar
+[15:07:31] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in appliedenergistics2-rv3-beta-421-GTNH.jar, it will be examined later for regular @Mod instances
+[15:07:31] [main/DEBUG] [FML/]: Instantiating coremod class AppEngCore
+[15:07:31] [main/DEBUG] [FML/]: The coremod appeng.transformer.AppEngCore requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[15:07:31] [main/INFO] [FML/]: [AppEng] Core Init
+[15:07:31] [main/DEBUG] [FML/]: Added access transformer class appeng.transformer.asm.ASMTweaker to enqueued access transformers
+[15:07:31] [main/DEBUG] [FML/]: Enqueued coremod AppEngCore
+[15:07:31] [main/DEBUG] [FML/]: Examining for coremod candidacy ArchitectureCraft-1.7.2-mc1.7.10.jar
+[15:07:31] [main/DEBUG] [FML/]: Not found coremod data in ArchitectureCraft-1.7.2-mc1.7.10.jar
+[15:07:31] [main/DEBUG] [FML/]: Examining for coremod candidacy backhand-1.4.1.jar
+[15:07:31] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in backhand-1.4.1.jar, it will be examined later for regular @Mod instances
+[15:07:31] [main/DEBUG] [FML/]: Instantiating coremod class MysteriumPatchesFixLoaderO
+[15:07:31] [main/WARN] [FML/]: The coremod net.tclproject.mysteriumlib.asm.fixes.MysteriumPatchesFixLoaderO does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[15:07:31] [main/DEBUG] [FML/]: Added access transformer class xonin.backhand.coremod.transformers.BattlegearAccessTransformer to enqueued access transformers
+[15:07:31] [main/DEBUG] [FML/]: Enqueued coremod MysteriumPatchesFixLoaderO
+[15:07:31] [main/DEBUG] [FML/]: Examining for coremod candidacy bdlib-1.9.5.1-mc1.7.10.jar
+[15:07:31] [main/DEBUG] [FML/]: Not found coremod data in bdlib-1.9.5.1-mc1.7.10.jar
+[15:07:31] [main/DEBUG] [FML/]: Examining for coremod candidacy BetterAchievements-0.3.0.jar
+[15:07:31] [main/DEBUG] [FML/]: Not found coremod data in BetterAchievements-0.3.0.jar
+[15:07:31] [main/DEBUG] [FML/]: Examining for coremod candidacy BetterBuildersWands-0.8.1-1.7.10r92+aec06c3.jar
+[15:07:31] [main/DEBUG] [FML/]: Not found coremod data in BetterBuildersWands-0.8.1-1.7.10r92+aec06c3.jar
+[15:07:31] [main/DEBUG] [FML/]: Examining for coremod candidacy BetterQuesting-3.0.328.jar
+[15:07:31] [main/DEBUG] [FML/]: Not found coremod data in BetterQuesting-3.0.328.jar
+[15:07:31] [main/DEBUG] [FML/]: Examining for coremod candidacy campfirebackport-1.7.10-1.11.1.jar
+[15:07:31] [main/INFO] [FML/]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from campfirebackport-1.7.10-1.11.1.jar
+[15:07:31] [main/DEBUG] [FML/]: Examining for coremod candidacy chisel-2.15.1-GTNH.jar
+[15:07:31] [main/DEBUG] [FML/]: Not found coremod data in chisel-2.15.1-GTNH.jar
+[15:07:31] [main/DEBUG] [FML/]: Examining for coremod candidacy CodeChickenCore-1.3.6.jar
+[15:07:31] [main/TRACE] [FML/]: Adding CodeChickenCore-1.3.6.jar to the list of known coremods, it will not be examined again
+[15:07:31] [main/DEBUG] [FML/]: Instantiating coremod class CodeChickenCorePlugin
+[15:07:31] [main/DEBUG] [FML/]: The coremod codechicken.core.launch.CodeChickenCorePlugin requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[15:07:31] [main/DEBUG] [FML/]: Added access transformer class codechicken.core.asm.CodeChickenAccessTransformer to enqueued access transformers
+[15:07:31] [main/DEBUG] [FML/]: Enqueued coremod CodeChickenCorePlugin
+[15:07:31] [main/DEBUG] [FML/]: Examining for coremod candidacy CodeChickenLib-1.2.1.jar
+[15:07:31] [main/DEBUG] [FML/]: Not found coremod data in CodeChickenLib-1.2.1.jar
+[15:07:31] [main/DEBUG] [FML/]: Examining for coremod candidacy CoFHCore-[1.7.10]3.1.4-329.jar
+[15:07:31] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in CoFHCore-[1.7.10]3.1.4-329.jar, it will be examined later for regular @Mod instances
+[15:07:31] [main/DEBUG] [FML/]: Instantiating coremod class LoadingPlugin
+[15:07:31] [main/WARN] [FML/]: The coremod cofh.asm.LoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[15:07:31] [main/DEBUG] [FML/]: Added access transformer class cofh.asm.CoFHAccessTransformer to enqueued access transformers
+[15:07:31] [main/DEBUG] [FML/]: Enqueued coremod LoadingPlugin
+[15:07:31] [main/DEBUG] [FML/]: Examining for coremod candidacy HBM-NTM-.1.0.27_X5061.jar
+[15:07:31] [main/DEBUG] [FML/]: Not found coremod data in HBM-NTM-.1.0.27_X5061.jar
+[15:07:31] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:07:31] [main/INFO] [LaunchWrapper/]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[15:07:31] [main/DEBUG] [mixin/]: MixinService [LaunchWrapper] was successfully booted in sun.misc.Launcher$AppClassLoader@548b7f67
+[15:07:31] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Барабулька/Desktop/server/mods/+unimixins-all-1.7.10-0.1.17.jar Service=LaunchWrapper Env=SERVER
+[15:07:31] [main/DEBUG] [mixin/]: Error cleaning class output directory: .mixin.out
+[15:07:31] [main/DEBUG] [mixin/]: Adding new mixin transformer proxy #1
+[15:07:31] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[15:07:31] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ContainerHandleURI(file:/C:/Users/Барабулька/Desktop/server/mods/+unimixins-all-1.7.10-0.1.17.jar)
+[15:07:31] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentFMLLegacy for ContainerHandleURI(file:/C:/Users/Барабулька/Desktop/server/mods/+unimixins-all-1.7.10-0.1.17.jar)
+[15:07:31] [main/DEBUG] [mixin/]: ForceLoadAsMod was specified for +unimixins-all-1.7.10-0.1.17.jar, attempting force-load
+[15:07:31] [main/DEBUG] [mixin/]: Adding +unimixins-all-1.7.10-0.1.17.jar to reparseable coremod collection
+[15:07:31] [main/DEBUG] [mixin/]: +unimixins-all-1.7.10-0.1.17.jar has core plugin io.github.legacymoddingmc.unimixins.all.AllCore. Injecting it into FML for co-initialisation:
+[15:07:31] [main/DEBUG] [FML/]: Instantiating coremod class AllCore
+[15:07:31] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[PREINIT]
+[15:07:31] [main/DEBUG] [unimixins/]: Name of jar containing MixinCore: +unimixins-all-1.7.10-0.1.17.jar
+[15:07:31] [main/DEBUG] [unimixins/]: Name of jar containing MixinTweaker: +unimixins-all-1.7.10-0.1.17.jar
+[15:07:31] [main/INFO] [MixinBooter/]: MixinBootstrap Initializing...
+[15:07:31] [main/DEBUG] [mixin/]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[15:07:31] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[15:07:31] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[15:07:31] [main/DEBUG] [mixin/]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[15:07:31] [main/DEBUG] [mixin/]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[15:07:31] [main/DEBUG] [mixin/]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[15:07:31] [main/DEBUG] [mixin/]: Registering new injector for @ModifyExpressionValue with io.github.tox1cozz.mixinextras.injector.ModifyExpressionValueInjectionInfo
+[15:07:31] [main/DEBUG] [mixin/]: Registering new injector for @ModifyReceiver with io.github.tox1cozz.mixinextras.injector.ModifyReceiverInjectionInfo
+[15:07:31] [main/DEBUG] [mixin/]: Registering new injector for @ModifyReturnValue with io.github.tox1cozz.mixinextras.injector.ModifyReturnValueInjectionInfo
+[15:07:31] [main/DEBUG] [mixin/]: Registering new injector for @WrapWithCondition with io.github.tox1cozz.mixinextras.injector.WrapWithConditionInjectionInfo
+[15:07:31] [main/INFO] [mixin/]: Compatibility level set to JAVA_8
+[15:07:31] [main/DEBUG] [mixin/]: Checking for additional mixins for MixinEnvironment[PREINIT]
+[15:07:31] [main/DEBUG] [mixin/]: Selecting config mixin.mixinbooterlegacy.json
+[15:07:31] [main/DEBUG] [mixin/]: Preparing mixin.mixinbooterlegacy.json (1)
+[15:07:31] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]: Rebuilding transformer delegation list:
+[15:07:31] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]:   Adding:    cpw.mods.fml.common.asm.transformers.PatchingTransformer
+[15:07:31] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]:   Excluding: org.spongepowered.asm.mixin.transformer.Proxy
+[15:07:31] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]: Transformer delegation list created with 1 entries
+[15:07:31] [main/TRACE] [mixin/]: Added class metadata for cpw/mods/fml/common/LoadController to metadata cache
+[15:07:31] [main/TRACE] [mixin/]: Added class metadata for cpw/mods/fml/common/discovery/ASMDataTable$ASMData to metadata cache
+[15:07:31] [main/TRACE] [mixin/]: Added class metadata for java/lang/invoke/MethodHandles$Lookup to metadata cache
+[15:07:31] [main/INFO] [GasStation Core Plugin/]: Initializing GasStationCore
+[15:07:31] [main/INFO] [GTNHMixins Core Plugin/]: Initializing GTNHMixins Core
+[15:07:31] [main/DEBUG] [unimixins-gtnhmixins/]: Initializing MixinExtras
+[15:07:31] [main/TRACE] [unimixins-gtnhmixins/]: Generating class com.gtnewhorizon.mixinextras.MixinExtrasBootstrap
+[15:07:31] [main/TRACE] [unimixins-gtnhmixins/]: Generating class com.gtnewhorizon.mixinextras.injector.ModifyExpressionValueInjectionInfo
+[15:07:31] [main/TRACE] [unimixins-gtnhmixins/]: Generating class com.gtnewhorizon.mixinextras.injector.ModifyExpressionValue
+[15:07:31] [main/TRACE] [unimixins-gtnhmixins/]: Generating class com.gtnewhorizon.mixinextras.injector.ModifyExpressionValueInjector
+[15:07:31] [main/DEBUG] [mixin/]: Registering new injector for @ModifyExpressionValue with com.gtnewhorizon.mixinextras.injector.ModifyExpressionValueInjectionInfo
+[15:07:31] [main/TRACE] [unimixins-gtnhmixins/]: Generating class com.gtnewhorizon.mixinextras.injector.ModifyReceiverInjectionInfo
+[15:07:31] [main/TRACE] [unimixins-gtnhmixins/]: Generating class com.gtnewhorizon.mixinextras.injector.ModifyReceiver
+[15:07:31] [main/TRACE] [unimixins-gtnhmixins/]: Generating class com.gtnewhorizon.mixinextras.injector.ModifyReceiverInjector
+[15:07:31] [main/DEBUG] [mixin/]: Registering new injector for @ModifyReceiver with com.gtnewhorizon.mixinextras.injector.ModifyReceiverInjectionInfo
+[15:07:31] [main/TRACE] [unimixins-gtnhmixins/]: Generating class com.gtnewhorizon.mixinextras.injector.ModifyReturnValueInjectionInfo
+[15:07:31] [main/TRACE] [unimixins-gtnhmixins/]: Generating class com.gtnewhorizon.mixinextras.injector.ModifyReturnValue
+[15:07:31] [main/TRACE] [unimixins-gtnhmixins/]: Generating class com.gtnewhorizon.mixinextras.injector.ModifyReturnValueInjector
+[15:07:31] [main/DEBUG] [mixin/]: Registering new injector for @ModifyReturnValue with com.gtnewhorizon.mixinextras.injector.ModifyReturnValueInjectionInfo
+[15:07:31] [main/TRACE] [unimixins-gtnhmixins/]: Generating class com.gtnewhorizon.mixinextras.injector.wrapoperation.WrapOperationInjectionInfo
+[15:07:31] [main/TRACE] [unimixins-gtnhmixins/]: Generating class com.gtnewhorizon.mixinextras.injector.wrapoperation.WrapOperation
+[15:07:31] [main/TRACE] [unimixins-gtnhmixins/]: Generating class com.gtnewhorizon.mixinextras.injector.wrapoperation.WrapOperationInjector
+[15:07:31] [main/DEBUG] [mixin/]: Registering new injector for @WrapOperation with com.gtnewhorizon.mixinextras.injector.wrapoperation.WrapOperationInjectionInfo
+[15:07:31] [main/TRACE] [unimixins-gtnhmixins/]: Generating class com.gtnewhorizon.mixinextras.injector.WrapWithConditionInjectionInfo
+[15:07:31] [main/TRACE] [unimixins-gtnhmixins/]: Generating class com.gtnewhorizon.mixinextras.injector.WrapWithCondition
+[15:07:31] [main/TRACE] [unimixins-gtnhmixins/]: Generating class com.gtnewhorizon.mixinextras.injector.WrapWithConditionInjector
+[15:07:31] [main/DEBUG] [mixin/]: Registering new injector for @WrapWithCondition with com.gtnewhorizon.mixinextras.injector.WrapWithConditionInjectionInfo
+[15:07:31] [main/TRACE] [unimixins-gtnhmixins/]: Generating class com.gtnewhorizon.mixinextras.injector.wrapoperation.WrapOperationApplicatorExtension
+[15:07:31] [main/DEBUG] [FML/]: The coremod io.github.legacymoddingmc.unimixins.all.AllCore requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[15:07:31] [main/INFO] [unimixins/]: Instantiating AllCore
+[15:07:31] [main/INFO] [unimixins/]: Instantiating CompatCore
+[15:07:31] [main/INFO] [unimixins-mixinextras/]: Instantiating MixinExtrasCore
+[15:07:32] [main/DEBUG] [unimixins/]: Resolved real package prefix to: org/spongepowered/asm/lib/
+[15:07:32] [main/DEBUG] [MixinExtras|Service/]: com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5) is taking over from null
+[15:07:32] [main/DEBUG] [FML/]: Added access transformer class io.github.legacymoddingmc.unimixins.all.AllCore$CombinedAccessTransformer to enqueued access transformers
+[15:07:32] [main/DEBUG] [FML/]: Enqueued coremod AllCore
+[15:07:32] [main/DEBUG] [mixin/]: MixinPlatformAgentFMLLegacy accepted container ContainerHandleURI(file:/C:/Users/Барабулька/Desktop/server/mods/+unimixins-all-1.7.10-0.1.17.jar)
+[15:07:32] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentLiteLoaderLegacy for ContainerHandleURI(file:/C:/Users/Барабулька/Desktop/server/mods/+unimixins-all-1.7.10-0.1.17.jar)
+[15:07:32] [main/DEBUG] [mixin/]: MixinPlatformAgentLiteLoaderLegacy rejected container ContainerHandleURI(file:/C:/Users/Барабулька/Desktop/server/mods/+unimixins-all-1.7.10-0.1.17.jar)
+[15:07:32] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:/C:/Users/Барабулька/Desktop/server/mods/+unimixins-all-1.7.10-0.1.17.jar)
+[15:07:32] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleURI(file:/C:/Users/Барабулька/Desktop/server/mods/+unimixins-all-1.7.10-0.1.17.jar)
+[15:07:32] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]: Scanning file:/C:/Users/%d0%91%d0%b0%d1%80%d0%b0%d0%b1%d1%83%d0%bb%d1%8c%d0%ba%d0%b0/Desktop/server/forge-1.7.10-10.13.4.1614-1.7.10-universal.jar for mixin tweaker
+[15:07:32] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]: Scanning file:/C:/Users/Барабулька/Desktop/server/mods/+unimixins-all-1.7.10-0.1.17.jar for mixin tweaker
+[15:07:32] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]: Scanning file:/C:/Users/Барабулька/Desktop/server/mods/angelica-1.0.0-beta4.jar for mixin tweaker
+[15:07:32] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]: Scanning file:/C:/Users/Барабулька/Desktop/server/mods/AppleCore-mc1.7.10-3.1.1.jar for mixin tweaker
+[15:07:32] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]: Scanning file:/C:/Users/Барабулька/Desktop/server/mods/appliedenergistics2-rv3-beta-421-GTNH.jar for mixin tweaker
+[15:07:32] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]: Scanning file:/C:/Users/Барабулька/Desktop/server/mods/backhand-1.4.1.jar for mixin tweaker
+[15:07:32] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]: Scanning file:/C:/Users/Барабулька/Desktop/server/mods/campfirebackport-1.7.10-1.11.1.jar for mixin tweaker
+[15:07:32] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]: Scanning file:/C:/Users/Барабулька/Desktop/server/mods/CodeChickenCore-1.3.6.jar for mixin tweaker
+[15:07:32] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]: Scanning file:/C:/Users/Барабулька/Desktop/server/mods/CoFHCore-%5B1.7.10%5D3.1.4-329.jar for mixin tweaker
+[15:07:32] [main/DEBUG] [mixin/]: Adding agents for Mixin Container ContainerHandleURI(file:/C:/Users/Барабулька/Desktop/server/mods/+unimixins-all-1.7.10-0.1.17.jar)
+[15:07:32] [main/DEBUG] [mixin/]: Adding agents for Mixin Container ContainerHandleURI(file:/C:/Users/Барабулька/Desktop/server/mods/angelica-1.0.0-beta4.jar)
+[15:07:32] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ContainerHandleURI(file:/C:/Users/Барабулька/Desktop/server/mods/angelica-1.0.0-beta4.jar)
+[15:07:32] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentFMLLegacy for ContainerHandleURI(file:/C:/Users/Барабулька/Desktop/server/mods/angelica-1.0.0-beta4.jar)
+[15:07:32] [main/DEBUG] [mixin/]: ForceLoadAsMod was specified for angelica-1.0.0-beta4.jar, attempting force-load
+[15:07:32] [main/DEBUG] [mixin/]: Adding angelica-1.0.0-beta4.jar to reparseable coremod collection
+[15:07:32] [main/DEBUG] [mixin/]: angelica-1.0.0-beta4.jar has core plugin com.gtnewhorizons.angelica.loading.AngelicaTweaker. Injecting it into FML for co-initialisation:
+[15:07:32] [main/DEBUG] [FML/]: Instantiating coremod class AngelicaTweaker
+[15:07:32] [main/ERROR] [mixin/]: catching
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_421]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_421]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_421]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_421]
+	at org.spongepowered.asm.launch.platform.MixinPlatformAgentFMLLegacy.injectCorePlugin(MixinPlatformAgentFMLLegacy.java:255) ~[+unimixins-all-1.7.10-0.1.17.jar:0.13.0+mixin.0.8.5]
+	at org.spongepowered.asm.launch.platform.MixinPlatformAgentFMLLegacy.initFMLCoreMod(MixinPlatformAgentFMLLegacy.java:170) [+unimixins-all-1.7.10-0.1.17.jar:0.13.0+mixin.0.8.5]
+	at org.spongepowered.asm.launch.platform.MixinPlatformAgentFMLLegacy.accept(MixinPlatformAgentFMLLegacy.java:156) [+unimixins-all-1.7.10-0.1.17.jar:0.13.0+mixin.0.8.5]
+	at org.spongepowered.asm.launch.platform.MixinContainer.<init>(MixinContainer.java:74) [+unimixins-all-1.7.10-0.1.17.jar:0.13.0+mixin.0.8.5]
+	at org.spongepowered.asm.launch.platform.MixinPlatformManager.createContainerFor(MixinPlatformManager.java:149) [+unimixins-all-1.7.10-0.1.17.jar:0.13.0+mixin.0.8.5]
+	at org.spongepowered.asm.launch.platform.MixinPlatformManager.addContainer(MixinPlatformManager.java:136) [+unimixins-all-1.7.10-0.1.17.jar:0.13.0+mixin.0.8.5]
+	at org.spongepowered.asm.launch.platform.MixinPlatformManager.scanForContainers(MixinPlatformManager.java:226) [+unimixins-all-1.7.10-0.1.17.jar:0.13.0+mixin.0.8.5]
+	at org.spongepowered.asm.launch.platform.MixinPlatformManager.init(MixinPlatformManager.java:108) [+unimixins-all-1.7.10-0.1.17.jar:0.13.0+mixin.0.8.5]
+	at org.spongepowered.asm.launch.MixinBootstrap.getPlatform(MixinBootstrap.java:118) [+unimixins-all-1.7.10-0.1.17.jar:0.13.0+mixin.0.8.5]
+	at org.spongepowered.asm.launch.MixinBootstrap.start(MixinBootstrap.java:166) [+unimixins-all-1.7.10-0.1.17.jar:0.13.0+mixin.0.8.5]
+	at org.spongepowered.asm.launch.MixinTweaker.<init>(MixinTweaker.java:46) [+unimixins-all-1.7.10-0.1.17.jar:0.13.0+mixin.0.8.5]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) [?:1.8.0_421]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) [?:1.8.0_421]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) [?:1.8.0_421]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) [?:1.8.0_421]
+	at java.lang.Class.newInstance(Unknown Source) [?:1.8.0_421]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:98) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_421]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_421]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_421]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_421]
+	at cpw.mods.fml.relauncher.ServerLaunchWrapper.run(ServerLaunchWrapper.java:43) [forge-1.7.10-10.13.4.1614-1.7.10-universal.jar:?]
+	at cpw.mods.fml.relauncher.ServerLaunchWrapper.main(ServerLaunchWrapper.java:12) [forge-1.7.10-10.13.4.1614-1.7.10-universal.jar:?]
+Caused by: java.lang.NoClassDefFoundError: com/gtnewhorizon/gtnhlib/config/ConfigException
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_421]
+	at java.lang.Class.forName(Unknown Source) ~[?:1.8.0_421]
+	at cpw.mods.fml.relauncher.CoreModManager.loadCoreMod(CoreModManager.java:460) ~[forge-1.7.10-10.13.4.1614-1.7.10-universal.jar:?]
+	... 28 more
+Caused by: java.lang.ClassNotFoundException: com.gtnewhorizon.gtnhlib.config.ConfigException
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_421]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_421]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_421]
+	at java.lang.Class.forName(Unknown Source) ~[?:1.8.0_421]
+	at cpw.mods.fml.relauncher.CoreModManager.loadCoreMod(CoreModManager.java:460) ~[forge-1.7.10-10.13.4.1614-1.7.10-universal.jar:?]
+	... 28 more
+Caused by: java.lang.NullPointerException
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_421]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_421]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_421]
+	at java.lang.Class.forName(Unknown Source) ~[?:1.8.0_421]
+	at cpw.mods.fml.relauncher.CoreModManager.loadCoreMod(CoreModManager.java:460) ~[forge-1.7.10-10.13.4.1614-1.7.10-universal.jar:?]
+	... 28 more
+[15:07:32] [main/DEBUG] [mixin/]: MixinPlatformAgentFMLLegacy rejected container ContainerHandleURI(file:/C:/Users/Барабулька/Desktop/server/mods/angelica-1.0.0-beta4.jar)
+[15:07:32] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentLiteLoaderLegacy for ContainerHandleURI(file:/C:/Users/Барабулька/Desktop/server/mods/angelica-1.0.0-beta4.jar)
+[15:07:32] [main/DEBUG] [mixin/]: MixinPlatformAgentLiteLoaderLegacy rejected container ContainerHandleURI(file:/C:/Users/Барабулька/Desktop/server/mods/angelica-1.0.0-beta4.jar)
+[15:07:32] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:/C:/Users/Барабулька/Desktop/server/mods/angelica-1.0.0-beta4.jar)
+[15:07:32] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleURI(file:/C:/Users/Барабулька/Desktop/server/mods/angelica-1.0.0-beta4.jar)
+[15:07:32] [main/DEBUG] [mixin/]: Adding agents for Mixin Container ContainerHandleURI(file:/C:/Users/Барабулька/Desktop/server/mods/campfirebackport-1.7.10-1.11.1.jar)
+[15:07:32] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ContainerHandleURI(file:/C:/Users/Барабулька/Desktop/server/mods/campfirebackport-1.7.10-1.11.1.jar)
+[15:07:32] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentFMLLegacy for ContainerHandleURI(file:/C:/Users/Барабулька/Desktop/server/mods/campfirebackport-1.7.10-1.11.1.jar)
+[15:07:32] [main/DEBUG] [mixin/]: ForceLoadAsMod was specified for campfirebackport-1.7.10-1.11.1.jar, attempting force-load
+[15:07:32] [main/DEBUG] [mixin/]: Adding campfirebackport-1.7.10-1.11.1.jar to reparseable coremod collection
+[15:07:32] [main/DEBUG] [mixin/]: campfirebackport-1.7.10-1.11.1.jar has core plugin connor135246.campfirebackport.CampfireBackportMixins. Injecting it into FML for co-initialisation:
+[15:07:32] [main/DEBUG] [FML/]: Instantiating coremod class CampfireBackportMixins
+[15:07:32] [main/TRACE] [FML/]: coremod named campfirebackportmixins is loading
+[15:07:32] [main/DEBUG] [FML/]: The coremod connor135246.campfirebackport.CampfireBackportMixins requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[15:07:32] [main/INFO] [campfirebackportmixins/]: Mixins are enabled!
+[15:07:32] [main/INFO] [campfirebackportmixins/]: Vanilla mixins will be applied.
+[15:07:32] [main/INFO] [campfirebackportmixins/]: Did not find the mod "Witchery".
+[15:07:32] [main/INFO] [campfirebackportmixins/]: "Witchery" mixins will NOT be applied.
+[15:07:32] [main/INFO] [campfirebackportmixins/]: Did not find the mod "Thaumcraft".
+[15:07:32] [main/INFO] [campfirebackportmixins/]: "Thaumcraft" mixins will NOT be applied.
+[15:07:32] [main/DEBUG] [FML/]: Enqueued coremod campfirebackportmixins
+[15:07:32] [main/DEBUG] [mixin/]: MixinPlatformAgentFMLLegacy accepted container ContainerHandleURI(file:/C:/Users/Барабулька/Desktop/server/mods/campfirebackport-1.7.10-1.11.1.jar)
+[15:07:32] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentLiteLoaderLegacy for ContainerHandleURI(file:/C:/Users/Барабулька/Desktop/server/mods/campfirebackport-1.7.10-1.11.1.jar)
+[15:07:32] [main/DEBUG] [mixin/]: MixinPlatformAgentLiteLoaderLegacy rejected container ContainerHandleURI(file:/C:/Users/Барабулька/Desktop/server/mods/campfirebackport-1.7.10-1.11.1.jar)
+[15:07:32] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:/C:/Users/Барабулька/Desktop/server/mods/campfirebackport-1.7.10-1.11.1.jar)
+[15:07:32] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleURI(file:/C:/Users/Барабулька/Desktop/server/mods/campfirebackport-1.7.10-1.11.1.jar)
+[15:07:32] [main/WARN] [LaunchWrapper/]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[15:07:32] [main/WARN] [LaunchWrapper/]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[15:07:32] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[15:07:32] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:07:32] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:07:32] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:07:32] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin} class transformers
+[15:07:32] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.MarkerTransformer
+[15:07:32] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.SideTransformer
+[15:07:32] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.EventSubscriptionTransformer
+[15:07:32] [main/DEBUG] [FML/]: Injection complete
+[15:07:32] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin}
+[15:07:32] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[15:07:32] [main/DEBUG] [mixin/]: Checking for additional mixins for MixinEnvironment[PREINIT]
+[15:07:33] [main/DEBUG] [FML/]: Read 527 binary patches
+[15:07:33] [main/ERROR] [FML/]: FML appears to be missing any signature data. This is not a good thing
+[15:07:33] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[15:07:33] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:07:33] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[15:07:33] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.classloading.FluidIdTransformer
+[15:07:33] [main/DEBUG] [FML/]: Injection complete
+[15:07:33] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[15:07:33] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[15:07:33] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[15:07:33] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:07:33] [main/DEBUG] [FML/]: Injecting coremod CCCDeobfPlugin {codechicken.core.asm.MCPDeobfuscationTransformer$LoadPlugin} class transformers
+[15:07:33] [main/DEBUG] [FML/]: Injection complete
+[15:07:33] [main/DEBUG] [FML/]: Running coremod plugin for CCCDeobfPlugin {codechicken.core.asm.MCPDeobfuscationTransformer$LoadPlugin}
+[15:07:33] [main/DEBUG] [FML/]: Running coremod plugin CCCDeobfPlugin
+[15:07:33] [main/DEBUG] [FML/]: Coremod plugin class LoadPlugin run successfully
+[15:07:33] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:07:33] [main/DEBUG] [FML/]: Injecting coremod AppEngCore {appeng.transformer.AppEngCore} class transformers
+[15:07:33] [main/TRACE] [FML/]: Registering transformer appeng.transformer.asm.ASMIntegration
+[15:07:33] [main/TRACE] [FML/]: Registering transformer appeng.transformer.asm.ApiRepairer
+[15:07:33] [main/INFO] [AE2-ApiRepairer/]: AE2 ApiFixer Installed
+[15:07:33] [main/DEBUG] [FML/]: Injection complete
+[15:07:33] [main/DEBUG] [FML/]: Running coremod plugin for AppEngCore {appeng.transformer.AppEngCore}
+[15:07:33] [main/DEBUG] [FML/]: Running coremod plugin AppEngCore
+[15:07:33] [main/DEBUG] [FML/]: Coremod plugin class AppEngCore run successfully
+[15:07:33] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:07:33] [main/DEBUG] [FML/]: Injecting coremod MysteriumPatchesFixLoaderO {net.tclproject.mysteriumlib.asm.fixes.MysteriumPatchesFixLoaderO} class transformers
+[15:07:33] [main/TRACE] [FML/]: Registering transformer net.tclproject.mysteriumlib.asm.common.FirstClassTransformer
+[15:07:33] [main/INFO] [STDOUT/]: [net.tclproject.mysteriumlib.asm.core.MiscUtils$SystemLogHelper:debug:80]: [DEBUG] Parsing class with fix methods net.tclproject.mysteriumlib.asm.common.BuiltinFixes
+[15:07:34] [main/DEBUG] [FML/]: Injection complete
+[15:07:34] [main/DEBUG] [FML/]: Running coremod plugin for MysteriumPatchesFixLoaderO {net.tclproject.mysteriumlib.asm.fixes.MysteriumPatchesFixLoaderO}
+[15:07:34] [main/DEBUG] [FML/]: Running coremod plugin MysteriumPatchesFixLoaderO
+[15:07:34] [main/INFO] [STDOUT/]: [net.tclproject.mysteriumlib.asm.core.MiscUtils$SystemLogHelper:debug:80]: [DEBUG] Parsing class with fix methods net.tclproject.mysteriumlib.asm.fixes.MysteriumPatchesFixesO
+[15:07:34] [main/DEBUG] [FML/]: Coremod plugin class MysteriumPatchesFixLoaderO run successfully
+[15:07:34] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:07:34] [main/DEBUG] [FML/]: Injecting coremod CodeChickenCorePlugin {codechicken.core.launch.CodeChickenCorePlugin} class transformers
+[15:07:34] [main/TRACE] [FML/]: Registering transformer codechicken.lib.asm.ClassHeirachyManager
+[15:07:34] [main/TRACE] [FML/]: Registering transformer codechicken.core.asm.TweakTransformer
+[15:07:34] [main/TRACE] [FML/]: Registering transformer codechicken.core.asm.DelegatedTransformer
+[15:07:34] [main/TRACE] [FML/]: Registering transformer codechicken.core.asm.DefaultImplementationTransformer
+[15:07:34] [main/TRACE] [FML/]: Registering transformer codechicken.lib.asm.RedirectorTransformer
+[15:07:34] [main/DEBUG] [FML/]: Injection complete
+[15:07:34] [main/DEBUG] [FML/]: Running coremod plugin for CodeChickenCorePlugin {codechicken.core.launch.CodeChickenCorePlugin}
+[15:07:34] [main/DEBUG] [FML/]: Running coremod plugin CodeChickenCorePlugin
+[15:07:34] [main/DEBUG] [FML/]: Coremod plugin class CodeChickenCorePlugin run successfully
+[15:07:34] [main/INFO] [LaunchWrapper/]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[15:07:34] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentFMLLegacy:ContainerHandleURI(file:/C:/Users/Барабулька/Desktop/server/mods/+unimixins-all-1.7.10-0.1.17.jar)]
+[15:07:34] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:/C:/Users/Барабулька/Desktop/server/mods/+unimixins-all-1.7.10-0.1.17.jar)]
+[15:07:34] [main/DEBUG] [mixin/]: Registering mixin config: mixins.gtnhmixins.json
+[15:07:34] [main/DEBUG] [mixin/]: Registering mixin config: mixins.gasstation.json
+[15:07:34] [main/DEBUG] [mixin/]: Registering mixin config: mixins.gtnhmixins.json
+[15:07:34] [main/DEBUG] [mixin/]: Registering mixin config: mixingasm.mixin.json
+[15:07:34] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:/C:/Users/Барабулька/Desktop/server/mods/angelica-1.0.0-beta4.jar)]
+[15:07:34] [main/DEBUG] [mixin/]: Registering mixin config: mixins.angelica.json
+[15:07:34] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentFMLLegacy:ContainerHandleURI(file:/C:/Users/Барабулька/Desktop/server/mods/campfirebackport-1.7.10-1.11.1.jar)]
+[15:07:34] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:/C:/Users/Барабулька/Desktop/server/mods/campfirebackport-1.7.10-1.11.1.jar)]
+[15:07:34] [main/DEBUG] [mixin/]: Creating FML remapper adapter: org.spongepowered.asm.bridge.RemapperAdapterFML
+[15:07:34] [main/DEBUG] [mixin/]: Checking for additional mixins for MixinEnvironment[PREINIT]
+[15:07:34] [main/DEBUG] [mixin/]: Selecting config mixins.gasstation.json
+[15:07:34] [main/DEBUG] [mixin/]: Preparing mixins.gasstation.json (0)
+[15:07:34] [main/INFO] [mixin/]: Initialised Mixin FML Remapper Adapter with cpw.mods.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@5ce4369b
+[15:07:34] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentFMLLegacy:ContainerHandleURI(file:/C:/Users/Барабулька/Desktop/server/mods/+unimixins-all-1.7.10-0.1.17.jar)]
+[15:07:34] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:/C:/Users/Барабулька/Desktop/server/mods/+unimixins-all-1.7.10-0.1.17.jar)]
+[15:07:34] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]: Scanning file:/C:/Users/%d0%91%d0%b0%d1%80%d0%b0%d0%b1%d1%83%d0%bb%d1%8c%d0%ba%d0%b0/Desktop/server/forge-1.7.10-10.13.4.1614-1.7.10-universal.jar for mixin tweaker
+[15:07:34] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]: Scanning file:/C:/Users/Барабулька/Desktop/server/mods/+unimixins-all-1.7.10-0.1.17.jar for mixin tweaker
+[15:07:34] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]: Scanning file:/C:/Users/Барабулька/Desktop/server/mods/angelica-1.0.0-beta4.jar for mixin tweaker
+[15:07:34] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]: Scanning file:/C:/Users/Барабулька/Desktop/server/mods/AppleCore-mc1.7.10-3.1.1.jar for mixin tweaker
+[15:07:34] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]: Scanning file:/C:/Users/Барабулька/Desktop/server/mods/appliedenergistics2-rv3-beta-421-GTNH.jar for mixin tweaker
+[15:07:34] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]: Scanning file:/C:/Users/Барабулька/Desktop/server/mods/backhand-1.4.1.jar for mixin tweaker
+[15:07:34] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]: Scanning file:/C:/Users/Барабулька/Desktop/server/mods/campfirebackport-1.7.10-1.11.1.jar for mixin tweaker
+[15:07:34] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]: Scanning file:/C:/Users/Барабулька/Desktop/server/mods/CodeChickenCore-1.3.6.jar for mixin tweaker
+[15:07:34] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]: Scanning file:/C:/Users/Барабулька/Desktop/server/mods/CoFHCore-%5B1.7.10%5D3.1.4-329.jar for mixin tweaker
+[15:07:34] [main/DEBUG] [mixin/]: Adding agents for Mixin Container ContainerHandleURI(file:/C:/Users/Барабулька/Desktop/server/mods/+unimixins-all-1.7.10-0.1.17.jar)
+[15:07:34] [main/DEBUG] [mixin/]: Adding agents for Mixin Container ContainerHandleURI(file:/C:/Users/Барабулька/Desktop/server/mods/angelica-1.0.0-beta4.jar)
+[15:07:34] [main/DEBUG] [mixin/]: Adding agents for Mixin Container ContainerHandleURI(file:/C:/Users/Барабулька/Desktop/server/mods/campfirebackport-1.7.10-1.11.1.jar)
+[15:07:34] [main/DEBUG] [mixin/]: inject() running with 3 agents
+[15:07:34] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentFMLLegacy:ContainerHandleURI(file:/C:/Users/Барабулька/Desktop/server/mods/+unimixins-all-1.7.10-0.1.17.jar)]
+[15:07:34] [main/DEBUG] [mixin/]: FML agent is co-initiralising coremod instance AllCore {[]} for ContainerHandleURI(file:/C:/Users/Барабулька/Desktop/server/mods/+unimixins-all-1.7.10-0.1.17.jar)
+[15:07:34] [main/DEBUG] [FML/]: Injecting coremod AllCore {io.github.legacymoddingmc.unimixins.all.AllCore} class transformers
+[15:07:34] [main/TRACE] [FML/]: Registering transformer io.github.legacymoddingmc.unimixins.compat.asm.EnhanceCrashReportsTransformer
+[15:07:34] [main/DEBUG] [FML/]: Injection complete
+[15:07:34] [main/DEBUG] [FML/]: Running coremod plugin for AllCore {io.github.legacymoddingmc.unimixins.all.AllCore}
+[15:07:34] [main/DEBUG] [FML/]: Running coremod plugin AllCore
+[15:07:34] [main/INFO] [GTNHMixins Core Plugin/]: Examining core mod list
+[15:07:34] [main/INFO] [GTNHMixins Core Plugin/]: LoadedCoreMods [codechicken.core.asm.MCPDeobfuscationTransformer$LoadPlugin, connor135246.campfirebackport.CampfireBackportMixins, cpw.mods.fml.relauncher.FMLCorePlugin, org.spongepowered.asm.launch.MixinTweaker, net.tclproject.mysteriumlib.asm.fixes.MysteriumPatchesFixLoaderO, squeek.applecore.AppleCore, codechicken.core.launch.CodeChickenCorePlugin, Dummy Container (null) , net.minecraftforge.classloading.FMLForgePlugin, codechicken.lib, io.github.legacymoddingmc.unimixins.all.AllCore, cpw.mods.fml.common.launcher.FMLDeobfTweaker, cofh.asm.LoadingPlugin]
+[15:07:34] [main/DEBUG] [FML/]: Coremod plugin class AllCore run successfully
+[15:07:34] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:/C:/Users/Барабулька/Desktop/server/mods/+unimixins-all-1.7.10-0.1.17.jar)]
+[15:07:34] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:/C:/Users/Барабулька/Desktop/server/mods/angelica-1.0.0-beta4.jar)]
+[15:07:34] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentFMLLegacy:ContainerHandleURI(file:/C:/Users/Барабулька/Desktop/server/mods/campfirebackport-1.7.10-1.11.1.jar)]
+[15:07:34] [main/DEBUG] [mixin/]: FML agent is co-initiralising coremod instance campfirebackportmixins {[]} for ContainerHandleURI(file:/C:/Users/Барабулька/Desktop/server/mods/campfirebackport-1.7.10-1.11.1.jar)
+[15:07:34] [main/DEBUG] [FML/]: Injecting coremod campfirebackportmixins {connor135246.campfirebackport.CampfireBackportMixins} class transformers
+[15:07:34] [main/DEBUG] [FML/]: Injection complete
+[15:07:34] [main/DEBUG] [FML/]: Running coremod plugin for campfirebackportmixins {connor135246.campfirebackport.CampfireBackportMixins}
+[15:07:34] [main/DEBUG] [FML/]: Running coremod plugin campfirebackportmixins
+[15:07:34] [main/DEBUG] [FML/]: Coremod plugin class CampfireBackportMixins run successfully
+[15:07:34] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:/C:/Users/Барабулька/Desktop/server/mods/campfirebackport-1.7.10-1.11.1.jar)]
+[15:07:34] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[15:07:34] [main/DEBUG] [FML/]: Loaded 57 rules from AccessTransformer config file fml_at.cfg
+[15:07:34] [main/DEBUG] [FML/]: Loaded 89 rules from AccessTransformer config file forge_at.cfg
+[15:07:34] [main/ERROR] [LaunchWrapper/]: A critical problem occurred registering the ASM transformer class xonin.backhand.coremod.transformers.BattlegearAccessTransformer
+java.lang.ClassNotFoundException: xonin.backhand.coremod.transformers.BattlegearAccessTransformer
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_421]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_421]
+	at net.minecraft.launchwrapper.LaunchClassLoader.registerTransformer(LaunchClassLoader.java:88) [launchwrapper-1.12.jar:?]
+	at cpw.mods.fml.common.launcher.FMLDeobfTweaker.injectIntoClassLoader(FMLDeobfTweaker.java:32) [forge-1.7.10-10.13.4.1614-1.7.10-universal.jar:?]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:115) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_421]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_421]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_421]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_421]
+	at cpw.mods.fml.relauncher.ServerLaunchWrapper.run(ServerLaunchWrapper.java:43) [forge-1.7.10-10.13.4.1614-1.7.10-universal.jar:?]
+	at cpw.mods.fml.relauncher.ServerLaunchWrapper.main(ServerLaunchWrapper.java:12) [forge-1.7.10-10.13.4.1614-1.7.10-universal.jar:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182) ~[launchwrapper-1.12.jar:?]
+	... 12 more
+[15:07:34] [main/DEBUG] [FML/]: Loaded 57 rules from AccessTransformer config file fml_at.cfg
+[15:07:34] [main/DEBUG] [unimixins/]: FML log level was already ALL, doing nothing
+[15:07:34] [main/DEBUG] [FML/]: Loaded 8 rules from AccessTransformer mod jar file C:\Users\Барабулька\Desktop\server\mods\angelica-1.0.0-beta4.jar!META-INF/notfine_at.cfg
+
+[15:07:34] [main/DEBUG] [FML/]: Loaded 42 rules from AccessTransformer mod jar file C:\Users\Барабулька\Desktop\server\mods\angelica-1.0.0-beta4.jar!META-INF/angelica_at.cfg
+
+[15:07:34] [main/DEBUG] [FML/]: Loaded 14 rules from AccessTransformer mod jar file C:\Users\Барабулька\Desktop\server\mods\HBM-NTM-.1.0.27_X5061.jar!META-INF/HBM_at.cfg
+
+[15:07:34] [main/DEBUG] [FML/]: Loaded 2 rules from AccessTransformer mod jar file C:\Users\Барабулька\Desktop\server\mods\ae2stuff-0.8.2-GTNH.jar!META-INF/ae2stuff_at.cfg
+
+[15:07:34] [main/DEBUG] [FML/]: Loaded 4 rules from AccessTransformer mod jar file C:\Users\Барабулька\Desktop\server\mods\chisel-2.15.1-GTNH.jar!META-INF/chisel_compile_at.cfg
+
+[15:07:34] [main/DEBUG] [FML/]: Loaded 59 rules from AccessTransformer mod jar file C:\Users\Барабулька\Desktop\server\mods\angelica-1.0.0-beta4.jar!META-INF/archaicfix_at.cfg
+
+[15:07:34] [main/DEBUG] [FML/]: Loaded 5 rules from AccessTransformer mod jar file C:\Users\Барабулька\Desktop\server\mods\appliedenergistics2-rv3-beta-421-GTNH.jar!META-INF/appeng_at.cfg
+
+[15:07:34] [main/DEBUG] [FML/]: Loaded 36 rules from AccessTransformer mod jar file C:\Users\Барабулька\Desktop\server\mods\backhand-1.4.1.jar!META-INF/theoffhandmod_at.cfg
+
+[15:07:34] [main/DEBUG] [FML/]: Loaded 19 rules from AccessTransformer mod jar file C:\Users\Барабулька\Desktop\server\mods\angelica-1.0.0-beta4.jar!META-INF/mcpatcherforge_at.cfg
+
+[15:07:34] [main/DEBUG] [FML/]: Loaded 2 rules from AccessTransformer mod jar file C:\Users\Барабулька\Desktop\server\mods\campfirebackport-1.7.10-1.11.1.jar!META-INF/campfirebackport_at.cfg
+
+[15:07:34] [main/DEBUG] [mixin/]: Adding new mixin transformer proxy #2
+[15:07:34] [main/DEBUG] [FML/]: Validating minecraft
+[15:07:34] [main/INFO] [STDOUT/]: [net.tclproject.mysteriumlib.asm.core.MiscUtils$SystemLogHelper:debug:80]: [DEBUG] Injecting fixes into class cpw.mods.fml.common.Loader.
+[15:07:34] [main/INFO] [STDOUT/]: [net.tclproject.mysteriumlib.asm.core.MiscUtils$SystemLogHelper:debug:80]: [DEBUG] Fixed method cpw.mods.fml.common.Loader#injectData([Ljava/lang/Object;)
+[15:07:34] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[INIT]
+[15:07:34] [main/INFO] [STDOUT/]: [net.tclproject.mysteriumlib.asm.core.MiscUtils$SystemLogHelper:debug:80]: [DEBUG] Methods dictionary loaded in 3 ms
+[15:07:34] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[15:07:34] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:07:34] [main/DEBUG] [FML/]: Injecting coremod LoadingPlugin {cofh.asm.LoadingPlugin} class transformers
+[15:07:34] [main/TRACE] [FML/]: Registering transformer cofh.asm.CoFHClassTransformer
+[15:07:34] [main/DEBUG] [FML/]: Injection complete
+[15:07:34] [main/DEBUG] [FML/]: Running coremod plugin for LoadingPlugin {cofh.asm.LoadingPlugin}
+[15:07:34] [main/DEBUG] [FML/]: Running coremod plugin LoadingPlugin
+[15:07:34] [main/DEBUG] [FML/]: Coremod plugin class LoadingPlugin run successfully
+[15:07:34] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:07:34] [main/DEBUG] [FML/]: Injecting coremod AppleCore {squeek.applecore.AppleCore} class transformers
+[15:07:34] [main/TRACE] [FML/]: Registering transformer squeek.applecore.asm.TransformerModuleHandler
+[15:07:35] [main/DEBUG] [FML/]: Injection complete
+[15:07:35] [main/DEBUG] [FML/]: Running coremod plugin for AppleCore {squeek.applecore.AppleCore}
+[15:07:35] [main/DEBUG] [FML/]: Running coremod plugin AppleCore
+[15:07:35] [main/DEBUG] [FML/]: Coremod plugin class AppleCore run successfully
+[15:07:35] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[15:07:35] [main/INFO] [LaunchWrapper/]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[15:07:35] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[15:07:35] [main/INFO] [LaunchWrapper/]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[15:07:35] [main/DEBUG] [mixin/]: Adding new mixin transformer proxy #3
+[15:07:35] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[15:07:35] [main/DEBUG] [mixin/]: Selecting config campfirebackport.mixin.json
+[15:07:35] [main/DEBUG] [mixin/]: Selecting config mixins.gtnhmixins.json
+[15:07:35] [main/DEBUG] [mixin/]: Selecting config mixingasm.mixin.json
+[15:07:35] [main/DEBUG] [mixingasm/]: Dynamic transformer inclusion pattern list: []
+[15:07:35] [main/DEBUG] [mixingasm/]: Copying assets/mixingasm/default_config/mixingasm/transformer_inclusion_list_default.txt -> config\mixingasm\transformer_inclusion_list_default.txt
+[15:07:35] [main/DEBUG] [mixingasm/]:       Trusting transformer cpw.mods.fml.common.asm.transformers.PatchingTransformer
+[15:07:35] [main/DEBUG] [mixingasm/]:       Trusting transformer org.spongepowered.asm.mixin.transformer.Proxy
+[15:07:35] [main/DEBUG] [mixingasm/]:       Trusting transformer io.github.legacymoddingmc.unimixins.gtnhmixins.asm.LegacyGTNHMixinExtrasGenerator
+[15:07:35] [main/DEBUG] [mixingasm/]:   Not trusting transformer io.github.legacymoddingmc.unimixins.compat.asm.ASMRemapperTransformer
+[15:07:35] [main/DEBUG] [mixingasm/]:       Trusting transformer cpw.mods.fml.common.asm.transformers.MarkerTransformer
+[15:07:35] [main/DEBUG] [mixingasm/]:       Trusting transformer cpw.mods.fml.common.asm.transformers.SideTransformer
+[15:07:35] [main/DEBUG] [mixingasm/]:       Trusting transformer cpw.mods.fml.common.asm.transformers.EventSubscriptionTransformer
+[15:07:35] [main/DEBUG] [mixingasm/]:       Trusting transformer net.minecraftforge.classloading.FluidIdTransformer
+[15:07:35] [main/DEBUG] [mixingasm/]:   Not trusting transformer appeng.transformer.asm.ASMIntegration
+[15:07:35] [main/DEBUG] [mixingasm/]:   Not trusting transformer appeng.transformer.asm.ApiRepairer
+[15:07:35] [main/DEBUG] [mixingasm/]:   Not trusting transformer net.tclproject.mysteriumlib.asm.common.FirstClassTransformer
+[15:07:35] [main/DEBUG] [mixingasm/]:       Trusting transformer codechicken.lib.asm.ClassHeirachyManager
+[15:07:35] [main/DEBUG] [mixingasm/]:       Trusting transformer codechicken.core.asm.TweakTransformer
+[15:07:35] [main/DEBUG] [mixingasm/]:       Trusting transformer codechicken.core.asm.DelegatedTransformer
+[15:07:35] [main/DEBUG] [mixingasm/]:       Trusting transformer codechicken.core.asm.DefaultImplementationTransformer
+[15:07:35] [main/DEBUG] [mixingasm/]:       Trusting transformer codechicken.lib.asm.RedirectorTransformer
+[15:07:35] [main/DEBUG] [mixingasm/]:   Not trusting transformer io.github.legacymoddingmc.unimixins.compat.asm.EnhanceCrashReportsTransformer
+[15:07:35] [main/DEBUG] [mixingasm/]:       Trusting transformer cpw.mods.fml.common.asm.transformers.DeobfuscationTransformer
+[15:07:35] [main/DEBUG] [mixingasm/]:       Trusting transformer cpw.mods.fml.common.asm.transformers.AccessTransformer
+[15:07:35] [main/DEBUG] [mixingasm/]:       Trusting transformer net.minecraftforge.transformers.ForgeAccessTransformer
+[15:07:35] [main/DEBUG] [mixingasm/]:   Not trusting transformer appeng.transformer.asm.ASMTweaker
+[15:07:35] [main/DEBUG] [mixingasm/]:       Trusting transformer codechicken.core.asm.CodeChickenAccessTransformer
+[15:07:35] [main/DEBUG] [mixingasm/]:   Not trusting transformer cofh.asm.CoFHAccessTransformer
+[15:07:35] [main/DEBUG] [mixingasm/]:   Not trusting transformer io.github.legacymoddingmc.unimixins.all.AllCore.CombinedAccessTransformer
+[15:07:35] [main/DEBUG] [mixingasm/]:       Trusting transformer cpw.mods.fml.common.asm.transformers.ModAccessTransformer
+[15:07:35] [main/DEBUG] [mixingasm/]:       Trusting transformer cpw.mods.fml.common.asm.transformers.ItemStackTransformer
+[15:07:35] [main/DEBUG] [mixingasm/]:       Trusting transformer org.spongepowered.asm.mixin.transformer.Proxy
+[15:07:35] [main/DEBUG] [mixingasm/]:   Not trusting transformer net.tclproject.mysteriumlib.asm.common.CustomClassTransformer
+[15:07:35] [main/DEBUG] [mixingasm/]:   Not trusting transformer cofh.asm.CoFHClassTransformer
+[15:07:35] [main/DEBUG] [mixingasm/]:   Not trusting transformer squeek.applecore.asm.TransformerModuleHandler
+[15:07:35] [main/DEBUG] [mixingasm/]:       Trusting transformer cpw.mods.fml.common.asm.transformers.TerminalTransformer
+[15:07:35] [main/DEBUG] [mixingasm/]:       Trusting transformer org.spongepowered.asm.mixin.transformer.Proxy
+[15:07:35] [main/DEBUG] [mixingasm/]: Excluding transformers: [io.github.legacymoddingmc.unimixins.compat.asm.ASMRemapperTransformer, appeng.transformer.asm.ASMIntegration, appeng.transformer.asm.ApiRepairer, net.tclproject.mysteriumlib.asm.common.FirstClassTransformer, io.github.legacymoddingmc.unimixins.compat.asm.EnhanceCrashReportsTransformer, appeng.transformer.asm.ASMTweaker, cofh.asm.CoFHAccessTransformer, io.github.legacymoddingmc.unimixins.all.AllCore.CombinedAccessTransformer, net.tclproject.mysteriumlib.asm.common.CustomClassTransformer, cofh.asm.CoFHClassTransformer, squeek.applecore.asm.TransformerModuleHandler]
+[15:07:35] [main/DEBUG] [mixin/]: Selecting config mixins.angelica.json
+[15:07:35] [main/DEBUG] [mixin/]: Preparing campfirebackport.mixin.json (0)
+[15:07:35] [main/DEBUG] [mixin/]: Preparing mixins.gtnhmixins.json (1)
+[15:07:35] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]: Found name transformer: cpw.mods.fml.common.asm.transformers.DeobfuscationTransformer
+[15:07:35] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]: Rebuilding transformer delegation list:
+[15:07:35] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]: Found name transformer: cpw.mods.fml.common.asm.transformers.DeobfuscationTransformer
+[15:07:35] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]:   Adding:    cpw.mods.fml.common.asm.transformers.PatchingTransformer
+[15:07:35] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]:   Excluding: org.spongepowered.asm.mixin.transformer.Proxy
+[15:07:35] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]:   Adding:    io.github.legacymoddingmc.unimixins.gtnhmixins.asm.LegacyGTNHMixinExtrasGenerator
+[15:07:35] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]:   Excluding: io.github.legacymoddingmc.unimixins.compat.asm.ASMRemapperTransformer
+[15:07:35] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]:   Adding:    cpw.mods.fml.common.asm.transformers.MarkerTransformer
+[15:07:35] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]:   Adding:    cpw.mods.fml.common.asm.transformers.SideTransformer
+[15:07:35] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]:   Excluding: cpw.mods.fml.common.asm.transformers.EventSubscriptionTransformer
+[15:07:35] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]:   Adding:    net.minecraftforge.classloading.FluidIdTransformer
+[15:07:35] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]:   Excluding: appeng.transformer.asm.ASMIntegration
+[15:07:35] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]:   Excluding: appeng.transformer.asm.ApiRepairer
+[15:07:35] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]:   Excluding: net.tclproject.mysteriumlib.asm.common.FirstClassTransformer
+[15:07:35] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]:   Adding:    codechicken.lib.asm.ClassHeirachyManager
+[15:07:35] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]:   Adding:    codechicken.core.asm.TweakTransformer
+[15:07:35] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]:   Adding:    codechicken.core.asm.DelegatedTransformer
+[15:07:35] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]:   Adding:    codechicken.core.asm.DefaultImplementationTransformer
+[15:07:35] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]:   Adding:    codechicken.lib.asm.RedirectorTransformer
+[15:07:35] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]:   Excluding: io.github.legacymoddingmc.unimixins.compat.asm.EnhanceCrashReportsTransformer
+[15:07:35] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]:   Adding:    cpw.mods.fml.common.asm.transformers.DeobfuscationTransformer
+[15:07:35] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]:   Adding:    cpw.mods.fml.common.asm.transformers.AccessTransformer
+[15:07:35] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]:   Adding:    net.minecraftforge.transformers.ForgeAccessTransformer
+[15:07:35] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]:   Excluding: appeng.transformer.asm.ASMTweaker
+[15:07:35] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]:   Adding:    codechicken.core.asm.CodeChickenAccessTransformer
+[15:07:35] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]:   Excluding: cofh.asm.CoFHAccessTransformer
+[15:07:35] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]:   Adding:    io.github.legacymoddingmc.unimixins.all.AllCore$CombinedAccessTransformer
+[15:07:35] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]:   Adding:    cpw.mods.fml.common.asm.transformers.ModAccessTransformer
+[15:07:35] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]:   Adding:    cpw.mods.fml.common.asm.transformers.ItemStackTransformer
+[15:07:35] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]:   Excluding: org.spongepowered.asm.mixin.transformer.Proxy
+[15:07:35] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]:   Excluding: net.tclproject.mysteriumlib.asm.common.CustomClassTransformer
+[15:07:35] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]:   Excluding: cofh.asm.CoFHClassTransformer
+[15:07:35] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]:   Excluding: squeek.applecore.asm.TransformerModuleHandler
+[15:07:35] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]:   Excluding: cpw.mods.fml.common.asm.transformers.TerminalTransformer
+[15:07:35] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]:   Excluding: org.spongepowered.asm.mixin.transformer.Proxy
+[15:07:35] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper/]: Transformer delegation list created with 17 entries
+[15:07:35] [main/TRACE] [mixin/]: Added class metadata for cpw/mods/fml/common/event/FMLConstructionEvent to metadata cache
+[15:07:35] [main/DEBUG] [mixin/]: Preparing mixingasm.mixin.json (0)
+[15:07:35] [main/DEBUG] [mixin/]: Preparing mixins.angelica.json (0)
+[15:07:35] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/entity/projectile/EntityPotion to metadata cache
+[15:07:35] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/entity/projectile/EntitySmallFireball to metadata cache
+[15:07:35] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/pathfinding/PathFinder to metadata cache
+[15:07:35] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/entity/projectile/EntityThrowable to metadata cache
+[15:07:35] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/entity/projectile/EntityFireball to metadata cache
+[15:07:35] [main/TRACE] [mixin/]: Added class metadata for java/util/Map$Entry to metadata cache
+[15:07:35] [main/INFO] [STDOUT/]: [net.tclproject.mysteriumlib.asm.core.MiscUtils$SystemLogHelper:debug:80]: [DEBUG] Injecting fixes into class net.minecraft.entity.Entity.
+[15:07:35] [main/INFO] [STDOUT/]: [net.tclproject.mysteriumlib.asm.core.MiscUtils$SystemLogHelper:warning:85]: [WARNING] Can not find the target method of fix: ASMFix: net.minecraft.entity.Entity#getLightLevel()I -> net.tclproject.mysteriumlib.asm.fixes.MysteriumPatchesFixesO#getLightLevel(Lnet/minecraft/entity/Entity;I)I, EnumReturnSetting=ALWAYS, EnumReturnType=FIX_METHOD_RETURN_VALUE, InjectorFactory: net.tclproject.mysteriumlib.asm.core.FixInserterFactory$OnExit, CreateMethod = false
+[15:07:35] [main/INFO] [STDOUT/]: [net.tclproject.mysteriumlib.asm.core.MiscUtils$SystemLogHelper:debug:80]: [DEBUG] Injecting fixes into class net.minecraft.entity.EntityLivingBase.
+[15:07:35] [main/INFO] [STDOUT/]: [net.tclproject.mysteriumlib.asm.core.MiscUtils$SystemLogHelper:warning:85]: [WARNING] Can not find the target method of fix: ASMFix: net.minecraft.entity.EntityLivingBase#getItemIcon(Lnet/minecraft/item/ItemStack;I)Lnet/minecraft/util/IIcon; -> net.tclproject.mysteriumlib.asm.fixes.MysteriumPatchesFixesO#getItemIcon(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;ILnet/minecraft/util/IIcon;)Lnet/minecraft/util/IIcon;, EnumReturnSetting=ALWAYS, EnumReturnType=FIX_METHOD_RETURN_VALUE, InjectorFactory: net.tclproject.mysteriumlib.asm.core.FixInserterFactory$OnExit, CreateMethod = false
+[15:07:35] [main/INFO] [STDOUT/]: [net.tclproject.mysteriumlib.asm.core.MiscUtils$SystemLogHelper:warning:85]: [WARNING] Can not find the target method of fix: ASMFix: net.minecraft.entity.EntityLivingBase#getSwingProgress(F)F -> net.tclproject.mysteriumlib.asm.fixes.MysteriumPatchesFixesO#getSwingProgress(Lnet/minecraft/entity/EntityLivingBase;FF)F, EnumReturnSetting=ALWAYS, EnumReturnType=FIX_METHOD_RETURN_VALUE, InjectorFactory: net.tclproject.mysteriumlib.asm.core.FixInserterFactory$OnExit, CreateMethod = false
+[15:07:35] [main/INFO] [STDOUT/]: [net.tclproject.mysteriumlib.asm.core.MiscUtils$SystemLogHelper:debug:80]: [DEBUG] Injecting fixes into class net.minecraft.entity.player.EntityPlayer.
+[15:07:35] [main/INFO] [STDOUT/]: [net.tclproject.mysteriumlib.asm.core.MiscUtils$SystemLogHelper:debug:80]: [DEBUG] Fixed method net.minecraft.entity.player.EntityPlayer#isPlayer()
+[15:07:35] [main/INFO] [battlegear2/]: M&B - Patching Class EntityPlayer (yz)
+[15:07:35] [main/INFO] [battlegear2/]: 	Adding new fields to EntityPlayer
+[15:07:35] [main/INFO] [battlegear2/]: 	Patching constructor in EntityPlayer
+[15:07:35] [main/INFO] [battlegear2/]: 	Patching method onUpdate in EntityPlayer
+[15:07:35] [main/INFO] [battlegear2/]: net/minecraft/entity/player/EntityPlayerEntityPlayer!!!
+[15:07:35] [main/INFO] [battlegear2/]: 	Patching method onItemUseFinish in EntityPlayer
+[15:07:35] [main/INFO] [battlegear2/]: net/minecraftforge/event/ForgeEventFactory EntityPlayer!!!
+[15:07:35] [main/INFO] [battlegear2/]: 	Patching method setCurrentItemOrArmor in EntityPlayer
+[15:07:35] [main/INFO] [battlegear2/]: 	Creating new methods in EntityPlayer
+[15:07:35] [main/INFO] [battlegear2/]: M&B - Patching Class EntityPlayer done
+[15:07:35] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[15:07:35] [main/DEBUG] [CCL ASM/]: Writing method [aji.canBeReplacedByLeaves(Lahl;III)Z]
+[15:07:36] [main/INFO] [STDOUT/]: [net.tclproject.mysteriumlib.asm.core.MiscUtils$SystemLogHelper:debug:80]: [DEBUG] Injecting fixes into class net.minecraft.item.ItemBow.
+[15:07:36] [main/INFO] [STDOUT/]: [net.tclproject.mysteriumlib.asm.core.MiscUtils$SystemLogHelper:warning:85]: [WARNING] Can not find the target method of fix: ASMFix: net.minecraft.item.ItemBow#getItemIconForUseDuration(I)Lnet/minecraft/util/IIcon; -> net.tclproject.mysteriumlib.asm.fixes.MysteriumPatchesFixesO#getItemIconForUseDuration(Lnet/minecraft/item/ItemBow;ILnet/minecraft/util/IIcon;)Lnet/minecraft/util/IIcon;, EnumReturnSetting=ALWAYS, EnumReturnType=FIX_METHOD_RETURN_VALUE, InjectorFactory: net.tclproject.mysteriumlib.asm.core.FixInserterFactory$OnExit, CreateMethod = false
+[15:07:36] [main/INFO] [STDOUT/]: [net.tclproject.mysteriumlib.asm.core.MiscUtils$SystemLogHelper:debug:80]: [DEBUG] Injecting fixes into class net.minecraft.entity.player.EntityPlayerMP.
+[15:07:36] [main/INFO] [STDOUT/]: [net.tclproject.mysteriumlib.asm.core.MiscUtils$SystemLogHelper:warning:85]: [WARNING] Can not find the target method of fix: ASMFix: net.minecraft.entity.player.EntityPlayerMP#sendContainerAndContentsToPlayer(Lnet/minecraft/inventory/Container;Ljava/util/List;) -> net.tclproject.mysteriumlib.asm.fixes.MysteriumPatchesFixesO#sendContainerAndContentsToPlayer(Lnet/minecraft/entity/player/EntityPlayerMP;Lnet/minecraft/inventory/Container;Ljava/util/List;)V, EnumReturnSetting=ALWAYS, EnumReturnType=VOID, InjectorFactory: net.tclproject.mysteriumlib.asm.core.FixInserterFactory$OnExit, CreateMethod = false
+[15:07:36] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[15:07:36] [main/DEBUG] [mixin/]: Registering new injector for @SugarWrapper with com.llamalad7.mixinextras.sugar.impl.SugarWrapperInjectionInfo
+[15:07:36] [main/DEBUG] [mixin/]: Registering new injector for @FactoryRedirectWrapper with com.llamalad7.mixinextras.wrapper.factory.FactoryRedirectWrapperInjectionInfo
+[15:07:36] [main/DEBUG] [mixin/]: Mixing MixinEntityPotion from campfirebackport.mixin.json into net.minecraft.entity.projectile.EntityPotion
+[15:07:36] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/entity/Entity to metadata cache
+[15:07:36] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/entity/IProjectile to metadata cache
+[15:07:36] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/util/MovingObjectPosition to metadata cache
+[15:07:36] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/util/Vec3 to metadata cache
+[15:07:36] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/util/MathHelper to metadata cache
+[15:07:36] [main/TRACE] [mixin/]: Added class metadata for connor135246/campfirebackport/common/blocks/BlockCampfire to metadata cache
+[15:07:36] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/World to metadata cache
+[15:07:36] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/asm/mixin/injection/callback/CallbackInfo to metadata cache
+[15:07:36] [main/DEBUG] [mixin/]: campfirebackport.mixin.json:MixinEntityPotion from mod campfirebackport->@Inject::onOnImpact(Lnet/minecraft/util/MovingObjectPosition;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[15:07:36] [main/DEBUG] [mixin/]: campfirebackport.mixin.json:MixinEntityPotion from mod campfirebackport->@Inject::onOnImpact(Lnet/minecraft/util/MovingObjectPosition;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[15:07:36] [main/DEBUG] [mixin/]: campfirebackport.mixin.json:MixinEntityPotion from mod campfirebackport->@Inject::onOnImpact(Lnet/minecraft/util/MovingObjectPosition;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[15:07:36] [main/INFO] [STDOUT/]: [net.tclproject.mysteriumlib.asm.core.MiscUtils$SystemLogHelper:debug:80]: [DEBUG] Injecting fixes into class net.minecraft.item.ItemStack.
+[15:07:36] [main/INFO] [STDOUT/]: [net.tclproject.mysteriumlib.asm.core.MiscUtils$SystemLogHelper:debug:80]: [DEBUG] Fixed method net.minecraft.item.ItemStack#damageItem(ILnet/minecraft/entity/EntityLivingBase;)
+[15:07:36] [main/INFO] [STDOUT/]: [net.tclproject.mysteriumlib.asm.core.MiscUtils$SystemLogHelper:debug:80]: [DEBUG] Fixed method net.minecraft.item.ItemStack#getItemUseAction()Lnet/minecraft/item/EnumAction;
+[15:07:37] [main/DEBUG] [mixin/]: Mixing MixinEntitySmallFireball from campfirebackport.mixin.json into net.minecraft.entity.projectile.EntitySmallFireball
+[15:07:37] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/GameRules to metadata cache
+[15:07:37] [main/DEBUG] [mixin/]: campfirebackport.mixin.json:MixinEntitySmallFireball from mod campfirebackport->@Inject::onOnImpact(Lnet/minecraft/util/MovingObjectPosition;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[15:07:38] [main/WARN] [FML/]: =============================================================
+[15:07:38] [main/WARN] [FML/]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
+[15:07:38] [main/WARN] [FML/]: Offendor: net/minecraft/server/gui/MinecraftServerGui$1.windowClosing(Ljava/awt/event/WindowEvent;)V
+[15:07:38] [main/WARN] [FML/]: Use FMLCommonHandler.exitJava instead
+[15:07:38] [main/WARN] [FML/]: =============================================================
+[15:07:38] [Server thread/INFO] [unimixins/]: Transforming FMLCommonHandler to add hook for enhancing crash reports
+[15:07:39] [Server thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+[15:07:39] [Server thread/INFO] [FML/]: MinecraftForge v10.13.4.1614 Initialized
+[15:07:40] [Server thread/INFO] [FML/]: Replaced 183 ore recipies
+[15:07:40] [Server thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
+[15:07:40] [Server thread/DEBUG] [FML/]: File C:\Users\Барабулька\Desktop\server\config\injectedDependencies.json not found. No dependencies injected
+[15:07:40] [Server thread/DEBUG] [mixin/]: Mixing LoadControllerMixin from mixin.mixinbooterlegacy.json into cpw.mods.fml.common.LoadController
+[15:07:40] [Server thread/TRACE] [mixin/]: Added class metadata for cpw/mods/fml/common/LoaderState to metadata cache
+[15:07:40] [Server thread/TRACE] [mixin/]: Added class metadata for io/github/tox1cozz/mixinbooterlegacy/MixinBooterLegacyPlugin to metadata cache
+[15:07:40] [Server thread/TRACE] [mixin/]: Added class metadata for org/apache/logging/log4j/Logger to metadata cache
+[15:07:40] [Server thread/TRACE] [mixin/]: Added class metadata for java/lang/Class to metadata cache
+[15:07:40] [Server thread/TRACE] [mixin/]: Added class metadata for cpw/mods/fml/common/discovery/ASMDataTable to metadata cache
+[15:07:40] [Server thread/TRACE] [mixin/]: Added class metadata for java/util/Set to metadata cache
+[15:07:40] [Server thread/TRACE] [mixin/]: Added class metadata for java/util/Iterator to metadata cache
+[15:07:40] [Server thread/TRACE] [mixin/]: Added class metadata for cpw/mods/fml/common/discovery/ModCandidate to metadata cache
+[15:07:40] [Server thread/TRACE] [mixin/]: Added class metadata for cpw/mods/fml/common/ModClassLoader to metadata cache
+[15:07:40] [Server thread/TRACE] [mixin/]: Added class metadata for java/lang/String to metadata cache
+[15:07:40] [Server thread/TRACE] [mixin/]: Added class metadata for org/spongepowered/asm/launch/MixinInitialisationError to metadata cache
+[15:07:40] [Server thread/TRACE] [mixin/]: Added class metadata for org/spongepowered/asm/mixin/throwables/MixinError to metadata cache
+[15:07:40] [Server thread/TRACE] [mixin/]: Added class metadata for java/lang/Error to metadata cache
+[15:07:40] [Server thread/TRACE] [mixin/]: Added class metadata for java/lang/Throwable to metadata cache
+[15:07:40] [Server thread/TRACE] [mixin/]: Added class metadata for java/io/Serializable to metadata cache
+[15:07:40] [Server thread/TRACE] [mixin/]: Added class metadata for io/github/tox1cozz/mixinbooterlegacy/ILateMixinLoader to metadata cache
+[15:07:40] [Server thread/TRACE] [mixin/]: Added class metadata for java/util/List to metadata cache
+[15:07:40] [Server thread/TRACE] [mixin/]: Added class metadata for org/spongepowered/asm/mixin/Mixins to metadata cache
+[15:07:40] [Server thread/TRACE] [mixin/]: Added class metadata for net/minecraft/launchwrapper/Launch to metadata cache
+[15:07:40] [Server thread/TRACE] [mixin/]: Added class metadata for com/google/common/util/concurrent/Runnables to metadata cache
+[15:07:40] [Server thread/TRACE] [mixin/]: Added class metadata for java/util/Map to metadata cache
+[15:07:40] [Server thread/TRACE] [mixin/]: Added class metadata for java/lang/Runnable to metadata cache
+[15:07:40] [Server thread/TRACE] [mixin/]: Added class metadata for cpw/mods/fml/common/Loader to metadata cache
+[15:07:40] [Server thread/TRACE] [mixin/]: Added class metadata for cpw/mods/fml/common/ModContainer to metadata cache
+[15:07:40] [Server thread/TRACE] [mixin/]: Added class metadata for java/lang/reflect/Field to metadata cache
+[15:07:40] [Server thread/TRACE] [mixin/]: Added class metadata for java/lang/reflect/AccessibleObject to metadata cache
+[15:07:40] [Server thread/TRACE] [mixin/]: Added class metadata for net/minecraft/launchwrapper/LaunchClassLoader to metadata cache
+[15:07:40] [Server thread/TRACE] [mixin/]: Added class metadata for java/util/Collection to metadata cache
+[15:07:40] [Server thread/TRACE] [mixin/]: Added class metadata for java/lang/invoke/LambdaMetafactory to metadata cache
+[15:07:40] [Server thread/TRACE] [mixin/]: Added class metadata for java/util/stream/Stream to metadata cache
+[15:07:40] [Server thread/TRACE] [mixin/]: Added class metadata for java/util/Optional to metadata cache
+[15:07:40] [Server thread/TRACE] [mixin/]: Added class metadata for java/lang/reflect/Method to metadata cache
+[15:07:40] [Server thread/TRACE] [mixin/]: Added class metadata for java/lang/reflect/Executable to metadata cache
+[15:07:40] [Server thread/TRACE] [mixin/]: Added class metadata for org/spongepowered/asm/mixin/MixinEnvironment to metadata cache
+[15:07:40] [Server thread/TRACE] [mixin/]: Added class metadata for java/lang/NoSuchMethodException to metadata cache
+[15:07:40] [Server thread/TRACE] [mixin/]: Added class metadata for io/github/tox1cozz/mixinbooterlegacy/LateMixin to metadata cache
+[15:07:40] [Server thread/TRACE] [mixin/]: Added class metadata for org/spongepowered/asm/mixin/transformer/Proxy to metadata cache
+[15:07:40] [Server thread/TRACE] [mixin/]: Added class metadata for java/util/function/Predicate to metadata cache
+[15:07:40] [Server thread/TRACE] [mixin/]: Added class metadata for net/minecraft/launchwrapper/IClassTransformer to metadata cache
+[15:07:40] [Server thread/DEBUG] [mixin/]: mixin.mixinbooterlegacy.json:LoadControllerMixin from mod (unknown)->@Inject::beforeConstructing(Lcpw/mods/fml/common/LoaderState;[Ljava/lang/Object;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[15:07:40] [Server thread/DEBUG] [mixin/]: mixin.mixinbooterlegacy.json:LoadControllerMixin from mod (unknown)->@Inject::beforeConstructing(Lcpw/mods/fml/common/LoaderState;[Ljava/lang/Object;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[15:07:40] [Server thread/DEBUG] [mixin/]: mixin.mixinbooterlegacy.json:LoadControllerMixin from mod (unknown)->@Inject::beforeConstructing(Lcpw/mods/fml/common/LoaderState;[Ljava/lang/Object;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[15:07:40] [Server thread/TRACE] [mixin/]: Added class metadata for java/lang/ReflectiveOperationException to metadata cache
+[15:07:40] [Server thread/TRACE] [mixin/]: Added class metadata for java/lang/Exception to metadata cache
+[15:07:41] [Server thread/DEBUG] [mixin/]: Mixing LateMixinOrchestrationMixin from mixins.gtnhmixins.json into cpw.mods.fml.common.event.FMLConstructionEvent
+[15:07:41] [Server thread/TRACE] [mixin/]: Added class metadata for cpw/mods/fml/common/event/FMLStateEvent to metadata cache
+[15:07:41] [Server thread/TRACE] [mixin/]: Added class metadata for cpw/mods/fml/common/event/FMLEvent to metadata cache
+[15:07:41] [Server thread/TRACE] [mixin/]: Added class metadata for com/gtnewhorizon/gtnhmixins/GTNHMixins to metadata cache
+[15:07:41] [Server thread/TRACE] [mixin/]: Added class metadata for java/util/HashSet to metadata cache
+[15:07:41] [Server thread/TRACE] [mixin/]: Added class metadata for java/util/AbstractSet to metadata cache
+[15:07:41] [Server thread/TRACE] [mixin/]: Added class metadata for java/util/AbstractCollection to metadata cache
+[15:07:41] [Server thread/TRACE] [mixin/]: Added class metadata for java/lang/Iterable to metadata cache
+[15:07:41] [Server thread/TRACE] [mixin/]: Added class metadata for java/lang/Cloneable to metadata cache
+[15:07:41] [Server thread/TRACE] [mixin/]: Added class metadata for java/util/Collections to metadata cache
+[15:07:41] [Server thread/TRACE] [mixin/]: Added class metadata for com/gtnewhorizon/gtnhmixins/ILateMixinLoader to metadata cache
+[15:07:41] [Server thread/TRACE] [mixin/]: Added class metadata for org/spongepowered/asm/mixin/transformer/Config to metadata cache
+[15:07:41] [Server thread/TRACE] [mixin/]: Added class metadata for com/gtnewhorizon/gtnhmixins/Reflection to metadata cache
+[15:07:41] [Server thread/TRACE] [mixin/]: Added class metadata for org/apache/commons/lang3/reflect/FieldUtils to metadata cache
+[15:07:41] [Server thread/TRACE] [mixin/]: Added class metadata for java/lang/Boolean to metadata cache
+[15:07:41] [Server thread/TRACE] [mixin/]: Added class metadata for com/gtnewhorizon/gtnhmixins/LateMixin to metadata cache
+[15:07:41] [Server thread/TRACE] [mixin/]: Added class metadata for java/lang/ClassNotFoundException to metadata cache
+[15:07:41] [Server thread/DEBUG] [mixin/]: mixins.gtnhmixins.json:LateMixinOrchestrationMixin from mod unimixins->@Inject::beforeConstructing([Ljava/lang/Object;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[15:07:41] [Server thread/DEBUG] [mixin/]: mixins.gtnhmixins.json:LateMixinOrchestrationMixin from mod unimixins->@Inject::beforeConstructing([Ljava/lang/Object;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[15:07:41] [Server thread/DEBUG] [mixin/]: mixins.gtnhmixins.json:LateMixinOrchestrationMixin from mod unimixins->@Inject::beforeConstructing([Ljava/lang/Object;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[15:07:41] [Server thread/DEBUG] [FML/]: Building injected Mod Containers [cpw.mods.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer, appeng.transformer.AppEngCore, codechicken.core.asm.CodeChickenCoreModContainer, cofh.asm.LoadingPlugin$CoFHDummyContainer]
+[15:07:41] [Server thread/INFO] [FML/]: [AppEng] Core Init
+[15:07:41] [Server thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[15:07:41] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Барабулька\Desktop\server\forge-1.7.10-10.13.4.1614-1.7.10-universal.jar, examining for mod candidates
+[15:07:41] [Server thread/TRACE] [FML/]: Skipping known library file C:\Users\Барабулька\Desktop\server\mods\+unimixins-all-1.7.10-0.1.17.jar
+[15:07:41] [Server thread/TRACE] [FML/]: Skipping known library file C:\Users\Барабулька\Desktop\server\mods\angelica-1.0.0-beta4.jar
+[15:07:41] [Server thread/TRACE] [FML/]: Skipping known library file C:\Users\Барабулька\Desktop\server\mods\AppleCore-mc1.7.10-3.1.1.jar
+[15:07:41] [Server thread/TRACE] [FML/]: Skipping known library file C:\Users\Барабулька\Desktop\server\mods\appliedenergistics2-rv3-beta-421-GTNH.jar
+[15:07:41] [Server thread/TRACE] [FML/]: Skipping known library file C:\Users\Барабулька\Desktop\server\mods\backhand-1.4.1.jar
+[15:07:41] [Server thread/TRACE] [FML/]: Skipping known library file C:\Users\Барабулька\Desktop\server\mods\campfirebackport-1.7.10-1.11.1.jar
+[15:07:41] [Server thread/TRACE] [FML/]: Skipping known library file C:\Users\Барабулька\Desktop\server\mods\CodeChickenCore-1.3.6.jar
+[15:07:41] [Server thread/TRACE] [FML/]: Skipping known library file C:\Users\Барабулька\Desktop\server\mods\CoFHCore-[1.7.10]3.1.4-329.jar
+[15:07:41] [Server thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[15:07:41] [Server thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[15:07:41] [Server thread/INFO] [FML/]: Searching C:\Users\Барабулька\Desktop\server\mods for mods
+[15:07:41] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file +unimixins-all-1.7.10-0.1.17.jar
+[15:07:41] [Server thread/DEBUG] [FML/]: Found a candidate mod directory 1.7.10
+[15:07:41] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file ae2stuff-0.8.2-GTNH.jar
+[15:07:41] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file angelica-1.0.0-beta4.jar
+[15:07:41] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file AnimationAPI-1.7.10-1.2.4.jar
+[15:07:41] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file AppleCore-mc1.7.10-3.1.1.jar
+[15:07:41] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file appliedenergistics2-rv3-beta-421-GTNH.jar
+[15:07:41] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file ArchitectureCraft-1.7.2-mc1.7.10.jar
+[15:07:41] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file backhand-1.4.1.jar
+[15:07:41] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file bdlib-1.9.5.1-mc1.7.10.jar
+[15:07:41] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file BetterAchievements-0.3.0.jar
+[15:07:41] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file BetterBuildersWands-0.8.1-1.7.10r92+aec06c3.jar
+[15:07:41] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file BetterQuesting-3.0.328.jar
+[15:07:41] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file campfirebackport-1.7.10-1.11.1.jar
+[15:07:41] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file chisel-2.15.1-GTNH.jar
+[15:07:41] [Server thread/TRACE] [FML/]: Skipping already parsed coremod or tweaker CodeChickenCore-1.3.6.jar
+[15:07:41] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file CoFHCore-[1.7.10]3.1.4-329.jar
+[15:07:41] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file HBM-NTM-.1.0.27_X5061.jar
+[15:07:41] [Server thread/DEBUG] [FML/]: Found a candidate mod directory railcraft
+[15:07:41] [Server thread/INFO] [FML/]: Also searching C:\Users\Барабулька\Desktop\server\mods\1.7.10 for mods
+[15:07:41] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file CodeChickenLib-1.2.1.jar
+[15:07:41] [Server thread/DEBUG] [FML/]: Examining file forge-1.7.10-10.13.4.1614-1.7.10-universal.jar for potential mods
+[15:07:41] [Server thread/DEBUG] [FML/]: The mod container forge-1.7.10-10.13.4.1614-1.7.10-universal.jar appears to be missing an mcmod.info file
+[15:07:41] [Server thread/DEBUG] [FML/]: Examining file +unimixins-all-1.7.10-0.1.17.jar for potential mods
+[15:07:41] [Server thread/TRACE] [FML/]: Located mcmod.info file in file +unimixins-all-1.7.10-0.1.17.jar
+[15:07:41] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (io.github.legacymoddingmc.unimixins.all.AllModule) - loading
+[15:07:41] [Server thread/TRACE] [unimixins/]: Parsed dependency info : [] [] []
+[15:07:41] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (io.github.legacymoddingmc.unimixins.mixin.MixinModule) - loading
+[15:07:41] [Server thread/TRACE] [unimixins-mixin/]: Parsed dependency info : [] [] []
+[15:07:42] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (io.github.legacymoddingmc.unimixins.compat.CompatModule) - loading
+[15:07:42] [Server thread/TRACE] [unimixins-compat/]: Parsed dependency info : [] [] []
+[15:07:42] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (makamys.mixingasm.forge.MixingasmMod) - loading
+[15:07:42] [Server thread/TRACE] [mixingasm/]: Parsed dependency info : [] [] []
+[15:07:42] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (ru.timeconqueror.spongemixins.SpongeMixins) - loading
+[15:07:42] [Server thread/TRACE] [spongemixins/]: Parsed dependency info : [] [] []
+[15:07:42] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (io.github.tox1cozz.mixinbooterlegacy.MixinBooterLegacyPlugin$Container) - loading
+[15:07:42] [Server thread/TRACE] [mixinbooterlegacy/]: Parsed dependency info : [] [] []
+[15:07:42] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (com.falsepattern.gasstation.GasStation) - loading
+[15:07:42] [Server thread/TRACE] [gasstation/]: Parsed dependency info : [] [] []
+[15:07:42] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (com.gtnewhorizon.gtnhmixins.GTNHMixins) - loading
+[15:07:42] [Server thread/TRACE] [gtnhmixins/]: Parsed dependency info : [] [] []
+[15:07:42] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (io.github.legacymoddingmc.unimixins.mixinextras.MixinExtrasModule) - loading
+[15:07:42] [Server thread/TRACE] [mixinextras/]: Parsed dependency info : [] [] []
+[15:07:42] [Server thread/DEBUG] [FML/]: Examining directory 1.7.10 for potential mods
+[15:07:42] [Server thread/DEBUG] [FML/]: No mcmod.info file found in directory 1.7.10
+[15:07:42] [Server thread/DEBUG] [FML/]: Examining file ae2stuff-0.8.2-GTNH.jar for potential mods
+[15:07:42] [Server thread/TRACE] [FML/]: Located mcmod.info file in file ae2stuff-0.8.2-GTNH.jar
+[15:07:42] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (net.bdew.ae2stuff.AE2Stuff) - loading
+[15:07:42] [Server thread/TRACE] [ae2stuff/]: Parsed dependency info : [bdlib@[1.9.4.109,), appliedenergistics2] [appliedenergistics2, bdlib@[1.9.4.109,)] []
+[15:07:43] [Server thread/DEBUG] [FML/]: Examining file angelica-1.0.0-beta4.jar for potential mods
+[15:07:43] [Server thread/TRACE] [FML/]: Located mcmod.info file in file angelica-1.0.0-beta4.jar
+[15:07:43] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (jss.notfine.NotFine) - loading
+[15:07:43] [Server thread/TRACE] [notfine/]: Parsed dependency info : [] [] []
+[15:07:43] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (jss.notfine.McPatcherForge) - loading
+[15:07:43] [Server thread/TRACE] [mcpatcherforge/]: Parsed dependency info : [] [] []
+[15:07:43] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (com.gtnewhorizons.angelica.AngelicaMod) - loading
+[15:07:43] [Server thread/TRACE] [angelica/]: Parsed dependency info : [gtnhlib@[0.4.0,)] [hodgepodge@[2.4.4,), CodeChickenCore@[1.2.0,), archaicfix@[0.7.0,), gtnhlib@[0.4.0,)] [lwjgl3ify@[1.5.3,)]
+[15:07:43] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (me.jellysquid.mods.sodium.client.SodiumClientMod) - loading
+[15:07:43] [Server thread/TRACE] [embeddium/]: Parsed dependency info : [] [] []
+[15:07:44] [Server thread/DEBUG] [FML/]: Examining file AnimationAPI-1.7.10-1.2.4.jar for potential mods
+[15:07:44] [Server thread/TRACE] [FML/]: Located mcmod.info file in file AnimationAPI-1.7.10-1.2.4.jar
+[15:07:44] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (thehippomaster.AnimationAPI.AnimationAPI) - loading
+[15:07:44] [Server thread/TRACE] [AnimationAPI/]: Parsed dependency info : [] [] []
+[15:07:44] [Server thread/DEBUG] [FML/]: Examining file AppleCore-mc1.7.10-3.1.1.jar for potential mods
+[15:07:44] [Server thread/DEBUG] [FML/]: The mod container AppleCore-mc1.7.10-3.1.1.jar appears to be missing an mcmod.info file
+[15:07:44] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (squeek.applecore.AppleCore) - loading
+[15:07:44] [Server thread/TRACE] [AppleCore/]: Parsed dependency info : [] [] []
+[15:07:44] [Server thread/INFO] [AppleCore/]: Mod AppleCore is missing the required element 'name'. Substituting AppleCore
+[15:07:44] [Server thread/DEBUG] [FML/]: Examining file appliedenergistics2-rv3-beta-421-GTNH.jar for potential mods
+[15:07:44] [Server thread/TRACE] [FML/]: Located mcmod.info file in file appliedenergistics2-rv3-beta-421-GTNH.jar
+[15:07:44] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (appeng.core.AppEng) - loading
+[15:07:44] [Server thread/TRACE] [appliedenergistics2/]: Parsed dependency info : [Forge@[10.13.4.1614,)] [appliedenergistics2-core, Forge@[10.13.4.1614,)] []
+[15:07:44] [Server thread/DEBUG] [FML/]: Examining file ArchitectureCraft-1.7.2-mc1.7.10.jar for potential mods
+[15:07:44] [Server thread/TRACE] [FML/]: Located mcmod.info file in file ArchitectureCraft-1.7.2-mc1.7.10.jar
+[15:07:44] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (gcewing.architecture.ArchitectureCraft) - loading
+[15:07:44] [Server thread/TRACE] [ArchitectureCraft/]: Parsed dependency info : [] [] []
+[15:07:44] [Server thread/DEBUG] [FML/]: Examining file backhand-1.4.1.jar for potential mods
+[15:07:44] [Server thread/TRACE] [FML/]: Located mcmod.info file in file backhand-1.4.1.jar
+[15:07:44] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (xonin.backhand.Backhand) - loading
+[15:07:44] [Server thread/TRACE] [backhand/]: Parsed dependency info : [] [] []
+[15:07:44] [Server thread/DEBUG] [FML/]: Examining file bdlib-1.9.5.1-mc1.7.10.jar for potential mods
+[15:07:44] [Server thread/TRACE] [FML/]: Located mcmod.info file in file bdlib-1.9.5.1-mc1.7.10.jar
+[15:07:44] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (net.bdew.lib.BdLib) - loading
+[15:07:44] [Server thread/TRACE] [bdlib/]: Parsed dependency info : [] [] []
+[15:07:44] [Server thread/DEBUG] [FML/]: Examining file BetterAchievements-0.3.0.jar for potential mods
+[15:07:44] [Server thread/TRACE] [FML/]: Located mcmod.info file in file BetterAchievements-0.3.0.jar
+[15:07:44] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (betterachievements.BetterAchievements) - loading
+[15:07:44] [Server thread/TRACE] [BetterAchievements/]: Parsed dependency info : [] [] []
+[15:07:44] [Server thread/DEBUG] [FML/]: Examining file BetterBuildersWands-0.8.1-1.7.10r92+aec06c3.jar for potential mods
+[15:07:44] [Server thread/TRACE] [FML/]: Located mcmod.info file in file BetterBuildersWands-0.8.1-1.7.10r92+aec06c3.jar
+[15:07:44] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (portablejim.bbw.BetterBuildersWandsMod) - loading
+[15:07:44] [Server thread/TRACE] [betterbuilderswands/]: Parsed dependency info : [] [] []
+[15:07:44] [Server thread/DEBUG] [betterbuilderswands/]: Attempting to load the file version.properties from BetterBuildersWands-0.8.1-1.7.10r92+aec06c3.jar to locate a version number for betterbuilderswands
+[15:07:44] [Server thread/DEBUG] [betterbuilderswands/]: Found version null for mod betterbuilderswands in version.properties, using
+[15:07:44] [Server thread/WARN] [betterbuilderswands/]: Mod betterbuilderswands is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 0.8.1
+[15:07:44] [Server thread/DEBUG] [FML/]: Examining file BetterQuesting-3.0.328.jar for potential mods
+[15:07:44] [Server thread/TRACE] [FML/]: Located mcmod.info file in file BetterQuesting-3.0.328.jar
+[15:07:45] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (betterquesting.core.BetterQuesting) - loading
+[15:07:45] [Server thread/TRACE] [betterquesting/]: Parsed dependency info : [] [] []
+[15:07:45] [Server thread/DEBUG] [betterquesting/]: Attempting to load the file version.properties from BetterQuesting-3.0.328.jar to locate a version number for betterquesting
+[15:07:45] [Server thread/WARN] [betterquesting/]: Mod betterquesting is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.0.328
+[15:07:45] [Server thread/DEBUG] [FML/]: Examining file campfirebackport-1.7.10-1.11.1.jar for potential mods
+[15:07:45] [Server thread/TRACE] [FML/]: Located mcmod.info file in file campfirebackport-1.7.10-1.11.1.jar
+[15:07:45] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (connor135246.campfirebackport.CampfireBackport) - loading
+[15:07:45] [Server thread/TRACE] [campfirebackport/]: Parsed dependency info : [Forge@[10.13.4.1614,)] [Forge@[10.13.4.1614,)] []
+[15:07:46] [Server thread/DEBUG] [FML/]: Examining file chisel-2.15.1-GTNH.jar for potential mods
+[15:07:46] [Server thread/TRACE] [FML/]: Located mcmod.info file in file chisel-2.15.1-GTNH.jar
+[15:07:46] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (team.chisel.Chisel) - loading
+[15:07:46] [Server thread/TRACE] [chisel/]: Parsed dependency info : [] [EE3, ForgeMultipart, Thaumcraft, appliedenergistics2, Railcraft, AWWayofTime, TwilightForest] []
+[15:07:46] [Server thread/DEBUG] [FML/]: Examining file CoFHCore-[1.7.10]3.1.4-329.jar for potential mods
+[15:07:46] [Server thread/TRACE] [FML/]: Located mcmod.info file in file CoFHCore-[1.7.10]3.1.4-329.jar
+[15:07:46] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (cofh.CoFHCore) - loading
+[15:07:46] [Server thread/TRACE] [CoFHCore/]: Parsed dependency info : [Forge@[10.13.4.1448,10.14)] [Forge@[10.13.4.1448,10.14)] []
+[15:07:46] [Server thread/DEBUG] [FML/]: Examining file HBM-NTM-.1.0.27_X5061.jar for potential mods
+[15:07:46] [Server thread/TRACE] [FML/]: Located mcmod.info file in file HBM-NTM-.1.0.27_X5061.jar
+[15:07:47] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (com.hbm.main.MainRegistry) - loading
+[15:07:47] [Server thread/TRACE] [hbm/]: Parsed dependency info : [] [] []
+[15:07:47] [Server thread/DEBUG] [FML/]: Examining directory railcraft for potential mods
+[15:07:47] [Server thread/DEBUG] [FML/]: No mcmod.info file found in directory railcraft
+[15:07:47] [Server thread/TRACE] [FML/]: Recursing into package emblems
+[15:07:47] [Server thread/DEBUG] [FML/]: Examining file CodeChickenLib-1.2.1.jar for potential mods
+[15:07:47] [Server thread/DEBUG] [FML/]: The mod container CodeChickenLib-1.2.1.jar appears to be missing an mcmod.info file
+[15:07:47] [Server thread/INFO] [FML/]: Forge Mod Loader has identified 33 mods to load
+[15:07:47] [Server thread/DEBUG] [FML/]: Found API com.cricketcraft.chisel.api (owned by chisel providing ChiselAPI) embedded in chisel
+[15:07:47] [Server thread/DEBUG] [FML/]: Found API cofh.lib.gui.element (owned by CoFHLib providing CoFHLib|gui|element) embedded in CoFHCore
+[15:07:47] [Server thread/DEBUG] [FML/]: Found API cofh.api.energy (owned by CoFHAPI providing CoFHAPI|energy) embedded in hbm
+[15:07:47] [Server thread/DEBUG] [FML/]: Found API cofh.lib.gui.element.listbox (owned by CoFHLib providing CoFHLib|gui|element|listbox) embedded in CoFHCore
+[15:07:47] [Server thread/DEBUG] [FML/]: Found API cofh.lib.render.particle (owned by CoFHLib providing CoFHLib|render|particle) embedded in CoFHCore
+[15:07:47] [Server thread/DEBUG] [FML/]: Found API cofh.api.block (owned by CoFHAPI providing CoFHAPI|block) embedded in CoFHCore
+[15:07:47] [Server thread/DEBUG] [FML/]: Found API appeng.api (owned by appliedenergistics2 providing appliedenergistics2|API) embedded in appliedenergistics2
+[15:07:47] [Server thread/DEBUG] [FML/]: Found API cofh.api.transport (owned by CoFHAPI providing CoFHAPI|transport) embedded in CoFHCore
+[15:07:47] [Server thread/DEBUG] [FML/]: Found API com.cricketcraft.chisel.api.rendering (owned by Chisel providing ChiselAPI|Rendering) embedded in chisel
+[15:07:47] [Server thread/DEBUG] [FML/]: Found API cofh.api.world (owned by CoFHAPI providing CoFHAPI|world) embedded in CoFHCore
+[15:07:47] [Server thread/DEBUG] [FML/]: Found API cofh.api.inventory (owned by CoFHAPI providing CoFHAPI|inventory) embedded in CoFHCore
+[15:07:47] [Server thread/DEBUG] [FML/]: Found API cofh.lib.gui (owned by CoFHLib providing CoFHLib|gui) embedded in CoFHCore
+[15:07:47] [Server thread/DEBUG] [FML/]: Found API betterachievements.api.components.achievement (owned by BetterAchievements providing BetterAchievements|API) embedded in BetterAchievements
+[15:07:47] [Server thread/DEBUG] [FML/]: Found API cofh.lib.util.position (owned by CoFHLib providing CoFHLib|util|position) embedded in CoFHCore
+[15:07:47] [Server thread/DEBUG] [FML/]: Found API cofh.api.fluid (owned by CoFHAPI providing CoFHAPI|fluid) embedded in CoFHCore
+[15:07:47] [Server thread/DEBUG] [FML/]: Found API cofh.lib.gui.container (owned by CoFHLib providing CoFHLib|gui|container) embedded in CoFHCore
+[15:07:47] [Server thread/DEBUG] [FML/]: Found API cofh.lib (owned by CoFHCore providing CoFHLib) embedded in CoFHCore
+[15:07:47] [Server thread/DEBUG] [FML/]: Found API cofh.api.tileentity (owned by CoFHAPI providing CoFHAPI|tileentity) embedded in CoFHCore
+[15:07:47] [Server thread/DEBUG] [FML/]: Found API cofh.lib.gui.slot (owned by CoFHLib providing CoFHLib|gui|slot) embedded in CoFHCore
+[15:07:47] [Server thread/DEBUG] [FML/]: Found API cofh.api.item (owned by CoFHAPI providing CoFHAPI|item) embedded in CoFHCore
+[15:07:47] [Server thread/DEBUG] [FML/]: Found API cofh.lib.audio (owned by CoFHLib providing CoFHLib|audio) embedded in CoFHCore
+[15:07:47] [Server thread/DEBUG] [FML/]: Found API squeek.applecore.api (owned by AppleCore providing AppleCoreAPI) embedded in AppleCore
+[15:07:47] [Server thread/DEBUG] [FML/]: Found API com.cricketcraft.chisel.api.carving (owned by Chisel providing ChiselAPI|Carving) embedded in chisel
+[15:07:47] [Server thread/DEBUG] [FML/]: Found API cofh.lib.world.feature (owned by CoFHLib providing CoFHLib|world|feature) embedded in CoFHCore
+[15:07:47] [Server thread/DEBUG] [FML/]: Found API cofh.api.modhelpers (owned by CoFHAPI providing CoFHAPI|modhelpers) embedded in CoFHCore
+[15:07:47] [Server thread/DEBUG] [FML/]: Found API cofh.api (owned by CoFHLib providing CoFHAPI) embedded in CoFHCore
+[15:07:47] [Server thread/DEBUG] [FML/]: Found API cofh.lib.world (owned by CoFHLib providing CoFHLib|world) embedded in CoFHCore
+[15:07:47] [Server thread/DEBUG] [FML/]: Found API betterquesting.api (owned by betterquesting providing BetterQuesting|API) embedded in betterquesting
+[15:07:47] [Server thread/DEBUG] [FML/]: Found API cofh.api (owned by CoFHLib providing CoFHAPI) embedded in hbm
+[15:07:47] [Server thread/DEBUG] [FML/]: Found API betterachievements.api (owned by BetterAchievements providing BetterAchievements|API) embedded in BetterAchievements
+[15:07:47] [Server thread/DEBUG] [FML/]: Found API betterachievements.api.components.page (owned by BetterAchievements providing BetterAchievements|API) embedded in BetterAchievements
+[15:07:47] [Server thread/DEBUG] [FML/]: Found API cofh.api.energy (owned by CoFHAPI providing CoFHAPI|energy) embedded in CoFHCore
+[15:07:47] [Server thread/DEBUG] [FML/]: Found API betterachievements.api.components (owned by BetterAchievements providing BetterAchievements|API) embedded in BetterAchievements
+[15:07:47] [Server thread/DEBUG] [FML/]: Found API cofh.lib.util (owned by CoFHLib providing CoFHLib|util) embedded in CoFHCore
+[15:07:47] [Server thread/DEBUG] [FML/]: Found API cofh.lib.inventory (owned by CoFHLib providing CoFHLib|inventory) embedded in CoFHCore
+[15:07:47] [Server thread/DEBUG] [FML/]: Found API betterachievements.api.util (owned by BetterAchievements providing BetterAchievements|API) embedded in BetterAchievements
+[15:07:47] [Server thread/DEBUG] [FML/]: Found API cofh.lib.util.helpers (owned by CoFHLib providing CoFHLib|util|helpers) embedded in CoFHCore
+[15:07:47] [Server thread/DEBUG] [FML/]: Found API cofh.api.core (owned by CoFHAPI providing CoFHAPI|core) embedded in CoFHCore
+[15:07:47] [Server thread/DEBUG] [FML/]: Found API cofh.lib.render (owned by CoFHLib providing CoFHLib|render) embedded in CoFHCore
+[15:07:47] [Server thread/DEBUG] [FML/]: Found API betterquesting.api2 (owned by betterquesting providing BetterQuesting|API2) embedded in betterquesting
+[15:07:47] [Server thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|gui|slot:1.7.10R1.2.1}
+[15:07:47] [Server thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|gui|slot: owner: CoFHLib, dependents: []
+[15:07:47] [Server thread/DEBUG] [FML/]: Creating API container dummy for API AppleCoreAPI: owner: AppleCore, dependents: []
+[15:07:47] [Server thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|core:1.7.10R1.3.1}
+[15:07:47] [Server thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI|core:1.7.10R1.3.1}
+[15:07:47] [Server thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|core: owner: CoFHAPI, dependents: []
+[15:07:47] [Server thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|energy:1.7.10R1.0.2}
+[15:07:47] [Server thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI|energy:1.7.10R1.0.2}
+[15:07:47] [Server thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|energy: owner: CoFHAPI, dependents: [hbm]
+[15:07:47] [Server thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|world:1.7.10R1.3.1}
+[15:07:47] [Server thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI|world:1.7.10R1.3.1}
+[15:07:47] [Server thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|world: owner: CoFHAPI, dependents: []
+[15:07:47] [Server thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|audio:1.7.10R1.2.1}
+[15:07:47] [Server thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|audio: owner: CoFHLib, dependents: []
+[15:07:47] [Server thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|world:1.7.10R1.2.1}
+[15:07:47] [Server thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|world: owner: CoFHLib, dependents: []
+[15:07:47] [Server thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|render|particle:1.7.10R1.2.1}
+[15:07:47] [Server thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|render|particle: owner: CoFHLib, dependents: []
+[15:07:47] [Server thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|tileentity:1.7.10R1.3.1}
+[15:07:47] [Server thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI|tileentity:1.7.10R1.3.1}
+[15:07:47] [Server thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|tileentity: owner: CoFHAPI, dependents: []
+[15:07:47] [Server thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI:1.7.10R1.3.1}
+[15:07:47] [Server thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI: owner: CoFHLib, dependents: [hbm]
+[15:07:47] [Server thread/DEBUG] [FML/]: Creating API container dummy for API ChiselAPI|Rendering: owner: Chisel, dependents: [chisel]
+[15:07:47] [Server thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|util:1.7.10R1.2.1}
+[15:07:47] [Server thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|util: owner: CoFHLib, dependents: []
+[15:07:47] [Server thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|gui|element|listbox:1.7.10R1.2.1}
+[15:07:47] [Server thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|gui|element|listbox: owner: CoFHLib, dependents: []
+[15:07:47] [Server thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|gui|container:1.7.10R1.2.1}
+[15:07:47] [Server thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|gui|container: owner: CoFHLib, dependents: []
+[15:07:47] [Server thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|item:1.7.10R1.3.1}
+[15:07:47] [Server thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI|item:1.7.10R1.3.1}
+[15:07:47] [Server thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|item: owner: CoFHAPI, dependents: []
+[15:07:47] [Server thread/DEBUG] [FML/]: Creating API container dummy for API ChiselAPI|Carving: owner: Chisel, dependents: [chisel]
+[15:07:47] [Server thread/DEBUG] [FML/]: Creating API container dummy for API appliedenergistics2|API: owner: appliedenergistics2, dependents: []
+[15:07:47] [Server thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|world|feature:1.7.10R1.2.1}
+[15:07:47] [Server thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|world|feature: owner: CoFHLib, dependents: []
+[15:07:47] [Server thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|util|position:1.7.10R1.2.1}
+[15:07:47] [Server thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|util|position: owner: CoFHLib, dependents: []
+[15:07:47] [Server thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|modhelpers:1.7.10R1.3.1}
+[15:07:47] [Server thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI|modhelpers:1.7.10R1.3.1}
+[15:07:47] [Server thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|modhelpers: owner: CoFHAPI, dependents: []
+[15:07:47] [Server thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|util|helpers:1.7.10R1.2.1}
+[15:07:47] [Server thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|util|helpers: owner: CoFHLib, dependents: []
+[15:07:47] [Server thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|gui|element:1.7.10R1.2.1}
+[15:07:47] [Server thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|gui|element: owner: CoFHLib, dependents: []
+[15:07:47] [Server thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|block:1.7.10R1.3.1}
+[15:07:47] [Server thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI|block:1.7.10R1.3.1}
+[15:07:47] [Server thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|block: owner: CoFHAPI, dependents: []
+[15:07:47] [Server thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|fluid:1.7.10R1.3.1}
+[15:07:47] [Server thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI|fluid:1.7.10R1.3.1}
+[15:07:47] [Server thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|fluid: owner: CoFHAPI, dependents: []
+[15:07:47] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BetterQuesting|API: owner: betterquesting, dependents: []
+[15:07:47] [Server thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|transport:1.7.10R1.3.1}
+[15:07:47] [Server thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI|transport:1.7.10R1.3.1}
+[15:07:47] [Server thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|transport: owner: CoFHAPI, dependents: []
+[15:07:47] [Server thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib: owner: CoFHCore, dependents: []
+[15:07:47] [Server thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|inventory:1.7.10R1.2.1}
+[15:07:47] [Server thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|inventory: owner: CoFHLib, dependents: []
+[15:07:47] [Server thread/DEBUG] [FML/]: Creating API container dummy for API ChiselAPI: owner: chisel, dependents: []
+[15:07:47] [Server thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|gui:1.7.10R1.2.1}
+[15:07:47] [Server thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|gui: owner: CoFHLib, dependents: []
+[15:07:47] [Server thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|render:1.7.10R1.2.1}
+[15:07:47] [Server thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|render: owner: CoFHLib, dependents: []
+[15:07:47] [Server thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|inventory:1.7.10R1.3.1}
+[15:07:47] [Server thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI|inventory:1.7.10R1.3.1}
+[15:07:47] [Server thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|inventory: owner: CoFHAPI, dependents: []
+[15:07:47] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BetterQuesting|API2: owner: betterquesting, dependents: []
+[15:07:47] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BetterAchievements|API: owner: BetterAchievements, dependents: []
+[15:07:47] [Server thread/TRACE] [FML/]: Received a system property request ''
+[15:07:47] [Server thread/TRACE] [FML/]: System property request managing the state of 0 mods
+[15:07:47] [Server thread/DEBUG] [FML/]: After merging, found state information for 0 mods
+[15:07:48] [Server thread/DEBUG] [FML/]: Found translations in forge-1.7.10-10.13.4.1614-1.7.10-universal.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[15:07:48] [Server thread/DEBUG] [FML/]: Found translations in forge-1.7.10-10.13.4.1614-1.7.10-universal.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[15:07:48] [Server thread/DEBUG] [unimixins/]: Enabling mod unimixins
+[15:07:48] [Server thread/DEBUG] [unimixins-mixin/]: Enabling mod unimixins-mixin
+[15:07:48] [Server thread/DEBUG] [unimixins-compat/]: Enabling mod unimixins-compat
+[15:07:48] [Server thread/DEBUG] [mixingasm/]: Enabling mod mixingasm
+[15:07:48] [Server thread/DEBUG] [spongemixins/]: Enabling mod spongemixins
+[15:07:48] [Server thread/DEBUG] [mixinbooterlegacy/]: Enabling mod mixinbooterlegacy
+[15:07:48] [Server thread/DEBUG] [gasstation/]: Enabling mod gasstation
+[15:07:48] [Server thread/DEBUG] [gtnhmixins/]: Enabling mod gtnhmixins
+[15:07:48] [Server thread/DEBUG] [mixinextras/]: Enabling mod mixinextras
+[15:07:48] [Server thread/DEBUG] [ae2stuff/]: Enabling mod ae2stuff
+[15:07:48] [Server thread/DEBUG] [FML/]: Found translations in ae2stuff-0.8.2-GTNH.jar [pt_BR, it_IT, ru_RU, zh_CN, hu_HU, fr_FR, de_DE, en_US, ko_KR, ja_JP]
+[15:07:48] [Server thread/DEBUG] [notfine/]: Enabling mod notfine
+[15:07:48] [Server thread/DEBUG] [FML/]: Found translations in angelica-1.0.0-beta4.jar [zh_CN, ru_RU, pl_PL, de_DE, en_US, zh_CN, ru_RU, pl_PL, en_US]
+[15:07:48] [Server thread/DEBUG] [mcpatcherforge/]: Enabling mod mcpatcherforge
+[15:07:48] [Server thread/DEBUG] [FML/]: Found translations in angelica-1.0.0-beta4.jar [zh_CN, ru_RU, pl_PL, de_DE, en_US, zh_CN, ru_RU, pl_PL, en_US]
+[15:07:48] [Server thread/DEBUG] [angelica/]: Enabling mod angelica
+[15:07:48] [Server thread/DEBUG] [FML/]: Found translations in angelica-1.0.0-beta4.jar [zh_CN, ru_RU, pl_PL, de_DE, en_US, zh_CN, ru_RU, pl_PL, en_US]
+[15:07:48] [Server thread/DEBUG] [embeddium/]: Enabling mod embeddium
+[15:07:48] [Server thread/DEBUG] [FML/]: Found translations in angelica-1.0.0-beta4.jar [zh_CN, ru_RU, pl_PL, de_DE, en_US, zh_CN, ru_RU, pl_PL, en_US]
+[15:07:48] [Server thread/DEBUG] [AnimationAPI/]: Enabling mod AnimationAPI
+[15:07:48] [Server thread/DEBUG] [AppleCore/]: Enabling mod AppleCore
+[15:07:48] [Server thread/DEBUG] [FML/]: Found translations in AppleCore-mc1.7.10-3.1.1.jar [de_DE, en_US, pl_PL, ru_RU, zh_CN, zh_TW]
+[15:07:48] [Server thread/DEBUG] [appliedenergistics2/]: Enabling mod appliedenergistics2
+[15:07:48] [Server thread/DEBUG] [FML/]: Found translations in appliedenergistics2-rv3-beta-421-GTNH.jar [cs_CZ, hu_HU, ko_KR, pt_BR, ja_JP, en_GB, de_DE, zh_CN, es_ES, ro_RO, it_IT, zh_TW, fr_FR, ru_RU, en_US, uk_UA]
+[15:07:48] [Server thread/DEBUG] [ArchitectureCraft/]: Enabling mod ArchitectureCraft
+[15:07:48] [Server thread/DEBUG] [FML/]: Found translations in ArchitectureCraft-1.7.2-mc1.7.10.jar [en_US]
+[15:07:48] [Server thread/DEBUG] [backhand/]: Enabling mod backhand
+[15:07:48] [Server thread/DEBUG] [FML/]: Found translations in backhand-1.4.1.jar [en_US, zh_CN]
+[15:07:48] [Server thread/DEBUG] [bdlib/]: Enabling mod bdlib
+[15:07:48] [Server thread/DEBUG] [FML/]: Found translations in bdlib-1.9.5.1-mc1.7.10.jar [cs_CZ, en_US, fr_CA, fr_FR, it_IT, ru_RU, zh_CN]
+[15:07:48] [Server thread/DEBUG] [BetterAchievements/]: Enabling mod BetterAchievements
+[15:07:48] [Server thread/DEBUG] [FML/]: Found translations in BetterAchievements-0.3.0.jar [en_US, zh_CN]
+[15:07:48] [Server thread/DEBUG] [betterbuilderswands/]: Enabling mod betterbuilderswands
+[15:07:48] [Server thread/DEBUG] [FML/]: Found translations in BetterBuildersWands-0.8.1-1.7.10r92+aec06c3.jar [en_US]
+[15:07:48] [Server thread/DEBUG] [betterquesting/]: Enabling mod betterquesting
+[15:07:48] [Server thread/DEBUG] [FML/]: Found translations in BetterQuesting-3.0.328.jar [en_US, ru_RU]
+[15:07:48] [Server thread/DEBUG] [campfirebackport/]: Enabling mod campfirebackport
+[15:07:48] [Server thread/DEBUG] [FML/]: Found translations in campfirebackport-1.7.10-1.11.1.jar [en_US, zh_CN]
+[15:07:48] [Server thread/DEBUG] [chisel/]: Enabling mod chisel
+[15:07:48] [Server thread/DEBUG] [FML/]: Found translations in chisel-2.15.1-GTNH.jar [de_DE, ru_RU, en_PT, en_GB, fr_FR, en_US, zh_CN, ko_KR]
+[15:07:48] [Server thread/DEBUG] [CoFHCore/]: Enabling mod CoFHCore
+[15:07:48] [Server thread/DEBUG] [FML/]: Found translations in CoFHCore-[1.7.10]3.1.4-329.jar [de_DE, zh_CN, fr_FR, es_ES, ko_KR, pl_PL, ru_RU, ja_JP, zh_TW, fr_CA, en_US, hu_HU, it_IT, cs_CZ]
+[15:07:48] [Server thread/DEBUG] [hbm/]: Enabling mod hbm
+[15:07:48] [Server thread/DEBUG] [FML/]: Found translations in HBM-NTM-.1.0.27_X5061.jar [ns_OC, en_US, fr_FR, te_ST, zh_CN, en_NT, pl_PL, ru_RU, it_IT, de_DE, test]
+[15:07:48] [Server thread/TRACE] [FML/]: Verifying mod requirements are satisfied
+[15:07:48] [Server thread/ERROR] [FML/]: The mod angelica (Angelica) requires mods [gtnhlib] to be available
+[15:07:48] [Server thread/DEBUG] [FML/]: Mod sorting data
+[15:07:48] [Server thread/DEBUG] [FML/]: 	unimixins(UniMixins:0.1.17): +unimixins-all-1.7.10-0.1.17.jar ()
+[15:07:48] [Server thread/DEBUG] [FML/]: 	unimixins-mixin(UniMixins: Mixin (UniMix):0.1.17): +unimixins-all-1.7.10-0.1.17.jar ()
+[15:07:48] [Server thread/DEBUG] [FML/]: 	unimixins-compat(UniMixins: Compatibility:0.1.17): +unimixins-all-1.7.10-0.1.17.jar ()
+[15:07:48] [Server thread/DEBUG] [FML/]: 	mixingasm(UniMixins: Mixingasm:0.3): +unimixins-all-1.7.10-0.1.17.jar ()
+[15:07:48] [Server thread/DEBUG] [FML/]: 	spongemixins(UniMixins: SpongeMixins:2.0.1): +unimixins-all-1.7.10-0.1.17.jar ()
+[15:07:48] [Server thread/DEBUG] [FML/]: 	mixinbooterlegacy(UniMixins: MixinBooterLegacy:1.2.1): +unimixins-all-1.7.10-0.1.17.jar ()
+[15:07:48] [Server thread/DEBUG] [FML/]: 	gasstation(UniMixins: GasStation:0.5.1): +unimixins-all-1.7.10-0.1.17.jar ()
+[15:07:48] [Server thread/DEBUG] [FML/]: 	gtnhmixins(UniMixins: GTNHMixins:2.2.0): +unimixins-all-1.7.10-0.1.17.jar ()
+[15:07:48] [Server thread/DEBUG] [FML/]: 	mixinextras(UniMixins: MixinExtras:0.1.17): +unimixins-all-1.7.10-0.1.17.jar ()
+[15:07:48] [Server thread/DEBUG] [FML/]: 	ae2stuff(AE2 Stuff:0.8.2-GTNH): ae2stuff-0.8.2-GTNH.jar (required-after:appliedenergistics2;required-after:bdlib@[1.9.4.109,))
+[15:07:48] [Server thread/DEBUG] [FML/]: 	notfine(NotFine:1.0.0-beta4): angelica-1.0.0-beta4.jar ()
+[15:07:48] [Server thread/DEBUG] [FML/]: 	mcpatcherforge(MCPatcherForge:1.0.0-alpha): angelica-1.0.0-beta4.jar ()
+[15:07:48] [Server thread/DEBUG] [FML/]: 	angelica(Angelica:1.0.0-beta4): angelica-1.0.0-beta4.jar ( before:lwjgl3ify@[1.5.3,); after:hodgepodge@[2.4.4,); after:CodeChickenCore@[1.2.0,); after:archaicfix@[0.7.0,); required-after:gtnhlib@[0.4.0,);)
+[15:07:48] [Server thread/DEBUG] [FML/]: 	embeddium(Embeddium:1.0.0-beta4): angelica-1.0.0-beta4.jar ()
+[15:07:48] [Server thread/DEBUG] [FML/]: 	AnimationAPI(AnimationAPI:1.2.4): AnimationAPI-1.7.10-1.2.4.jar ()
+[15:07:48] [Server thread/DEBUG] [FML/]: 	AppleCore(AppleCore:3.1.1): AppleCore-mc1.7.10-3.1.1.jar ()
+[15:07:48] [Server thread/DEBUG] [FML/]: 	appliedenergistics2(Applied Energistics 2:rv3-beta-421-GTNH): appliedenergistics2-rv3-beta-421-GTNH.jar (after:appliedenergistics2-core;required-after:Forge@[10.13.4.1614,))
+[15:07:48] [Server thread/DEBUG] [FML/]: 	ArchitectureCraft(ArchitectureCraft:1.7.2): ArchitectureCraft-1.7.2-mc1.7.10.jar ()
+[15:07:48] [Server thread/DEBUG] [FML/]: 	backhand(Backhand:1.7.10): backhand-1.4.1.jar ()
+[15:07:48] [Server thread/DEBUG] [FML/]: 	bdlib(BD Lib:1.9.5.1): bdlib-1.9.5.1-mc1.7.10.jar ()
+[15:07:48] [Server thread/DEBUG] [FML/]: 	BetterAchievements(Better Achievements:0.3.0): BetterAchievements-0.3.0.jar ()
+[15:07:48] [Server thread/DEBUG] [FML/]: 	betterbuilderswands(Better Builder's Wands:0.8.1): BetterBuildersWands-0.8.1-1.7.10r92+aec06c3.jar ()
+[15:07:48] [Server thread/DEBUG] [FML/]: 	betterquesting(Better Questing:3.0.328): BetterQuesting-3.0.328.jar ()
+[15:07:48] [Server thread/DEBUG] [FML/]: 	campfirebackport(Campfire Backport:1.7.10-1.11.1): campfirebackport-1.7.10-1.11.1.jar (required-after:Forge@[10.13.4.1614,))
+[15:07:48] [Server thread/DEBUG] [FML/]: 	chisel(Chisel:2.15.1-GTNH): chisel-2.15.1-GTNH.jar (after:EE3;after:ForgeMultipart;after:Thaumcraft;after:appliedenergistics2;after:Railcraft;after:AWWayofTime;after:TwilightForest)
+[15:07:48] [Server thread/DEBUG] [FML/]: 	CoFHCore(CoFH Core:1.7.10R3.1.4): CoFHCore-[1.7.10]3.1.4-329.jar (required-after:Forge@[10.13.4.1448,10.14);)
+[15:07:48] [Server thread/DEBUG] [FML/]: 	hbm(Hbm's Nuclear Tech:1.0.27 BETA (5061)): HBM-NTM-.1.0.27_X5061.jar ()
+[15:07:48] [Server thread/WARN] [FML/]: Can't revert to frozen GameData state without freezing first.
+[15:07:48] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[15:07:48] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[15:07:48] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0,002s
+[15:07:48] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[15:07:48] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[15:07:48] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0,003s
+[15:07:48] [Server thread/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
+[15:07:48] [Server thread/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
+[15:07:48] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0,004s
+[15:07:48] [Server thread/TRACE] [appliedenergistics2-core/appliedenergistics2-core]: Sending event FMLModIdMappingEvent to mod appliedenergistics2-core
+[15:07:48] [Server thread/TRACE] [appliedenergistics2-core/appliedenergistics2-core]: Sent event FMLModIdMappingEvent to mod appliedenergistics2-core
+[15:07:48] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Applied Energistics 2 Core took 0,001s
+[15:07:48] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sending event FMLModIdMappingEvent to mod CodeChickenCore
+[15:07:48] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sent event FMLModIdMappingEvent to mod CodeChickenCore
+[15:07:48] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - CodeChicken Core took 0,000s
+[15:07:48] [Server thread/TRACE] [<CoFH ASM>/<CoFH ASM>]: Sending event FMLModIdMappingEvent to mod <CoFH ASM>
+[15:07:48] [Server thread/TRACE] [<CoFH ASM>/<CoFH ASM>]: Sent event FMLModIdMappingEvent to mod <CoFH ASM>
+[15:07:48] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - CoFH ASM took 0,000s
+[15:07:48] [Server thread/TRACE] [unimixins/unimixins]: Sending event FMLModIdMappingEvent to mod unimixins
+[15:07:48] [Server thread/TRACE] [unimixins/unimixins]: Sent event FMLModIdMappingEvent to mod unimixins
+[15:07:48] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - UniMixins took 0,000s
+[15:07:48] [Server thread/TRACE] [unimixins-mixin/unimixins-mixin]: Sending event FMLModIdMappingEvent to mod unimixins-mixin
+[15:07:48] [Server thread/TRACE] [unimixins-mixin/unimixins-mixin]: Sent event FMLModIdMappingEvent to mod unimixins-mixin
+[15:07:48] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - UniMixins: Mixin (UniMix) took 0,001s
+[15:07:48] [Server thread/TRACE] [unimixins-compat/unimixins-compat]: Sending event FMLModIdMappingEvent to mod unimixins-compat
+[15:07:48] [Server thread/TRACE] [unimixins-compat/unimixins-compat]: Sent event FMLModIdMappingEvent to mod unimixins-compat
+[15:07:48] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - UniMixins: Compatibility took 0,000s
+[15:07:48] [Server thread/TRACE] [mixingasm/mixingasm]: Sending event FMLModIdMappingEvent to mod mixingasm
+[15:07:48] [Server thread/TRACE] [mixingasm/mixingasm]: Sent event FMLModIdMappingEvent to mod mixingasm
+[15:07:48] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - UniMixins: Mixingasm took 0,000s
+[15:07:48] [Server thread/TRACE] [spongemixins/spongemixins]: Sending event FMLModIdMappingEvent to mod spongemixins
+[15:07:48] [Server thread/TRACE] [spongemixins/spongemixins]: Sent event FMLModIdMappingEvent to mod spongemixins
+[15:07:48] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - UniMixins: SpongeMixins took 0,001s
+[15:07:48] [Server thread/TRACE] [mixinbooterlegacy/mixinbooterlegacy]: Sending event FMLModIdMappingEvent to mod mixinbooterlegacy
+[15:07:48] [Server thread/TRACE] [mixinbooterlegacy/mixinbooterlegacy]: Sent event FMLModIdMappingEvent to mod mixinbooterlegacy
+[15:07:48] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - UniMixins: MixinBooterLegacy took 0,001s
+[15:07:48] [Server thread/TRACE] [gasstation/gasstation]: Sending event FMLModIdMappingEvent to mod gasstation
+[15:07:48] [Server thread/TRACE] [gasstation/gasstation]: Sent event FMLModIdMappingEvent to mod gasstation
+[15:07:48] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - UniMixins: GasStation took 0,001s
+[15:07:48] [Server thread/TRACE] [gtnhmixins/gtnhmixins]: Sending event FMLModIdMappingEvent to mod gtnhmixins
+[15:07:48] [Server thread/TRACE] [gtnhmixins/gtnhmixins]: Sent event FMLModIdMappingEvent to mod gtnhmixins
+[15:07:48] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - UniMixins: GTNHMixins took 0,002s
+[15:07:48] [Server thread/TRACE] [mixinextras/mixinextras]: Sending event FMLModIdMappingEvent to mod mixinextras
+[15:07:48] [Server thread/TRACE] [mixinextras/mixinextras]: Sent event FMLModIdMappingEvent to mod mixinextras
+[15:07:48] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - UniMixins: MixinExtras took 0,000s
+[15:07:48] [Server thread/TRACE] [ae2stuff/ae2stuff]: Sending event FMLModIdMappingEvent to mod ae2stuff
+[15:07:48] [Server thread/TRACE] [ae2stuff/ae2stuff]: Sent event FMLModIdMappingEvent to mod ae2stuff
+[15:07:48] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - AE2 Stuff took 0,003s
+[15:07:48] [Server thread/TRACE] [notfine/notfine]: Sending event FMLModIdMappingEvent to mod notfine
+[15:07:48] [Server thread/TRACE] [notfine/notfine]: Sent event FMLModIdMappingEvent to mod notfine
+[15:07:48] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - NotFine took 0,000s
+[15:07:48] [Server thread/TRACE] [mcpatcherforge/mcpatcherforge]: Sending event FMLModIdMappingEvent to mod mcpatcherforge
+[15:07:48] [Server thread/TRACE] [mcpatcherforge/mcpatcherforge]: Sent event FMLModIdMappingEvent to mod mcpatcherforge
+[15:07:48] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - MCPatcherForge took 0,000s
+[15:07:48] [Server thread/TRACE] [angelica/angelica]: Sending event FMLModIdMappingEvent to mod angelica
+[15:07:48] [Server thread/TRACE] [angelica/angelica]: Sent event FMLModIdMappingEvent to mod angelica
+[15:07:48] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Angelica took 0,000s
+[15:07:48] [Server thread/TRACE] [embeddium/embeddium]: Sending event FMLModIdMappingEvent to mod embeddium
+[15:07:48] [Server thread/TRACE] [embeddium/embeddium]: Sent event FMLModIdMappingEvent to mod embeddium
+[15:07:48] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Embeddium took 0,002s
+[15:07:48] [Server thread/TRACE] [AnimationAPI/AnimationAPI]: Sending event FMLModIdMappingEvent to mod AnimationAPI
+[15:07:48] [Server thread/TRACE] [AnimationAPI/AnimationAPI]: Sent event FMLModIdMappingEvent to mod AnimationAPI
+[15:07:48] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - AnimationAPI took 0,004s
+[15:07:48] [Server thread/TRACE] [AppleCore/AppleCore]: Sending event FMLModIdMappingEvent to mod AppleCore
+[15:07:48] [Server thread/TRACE] [AppleCore/AppleCore]: Sent event FMLModIdMappingEvent to mod AppleCore
+[15:07:48] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - AppleCore took 0,001s
+[15:07:48] [Server thread/TRACE] [appliedenergistics2/appliedenergistics2]: Sending event FMLModIdMappingEvent to mod appliedenergistics2
+[15:07:48] [Server thread/TRACE] [appliedenergistics2/appliedenergistics2]: Sent event FMLModIdMappingEvent to mod appliedenergistics2
+[15:07:48] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Applied Energistics 2 took 0,001s
+[15:07:48] [Server thread/TRACE] [ArchitectureCraft/ArchitectureCraft]: Sending event FMLModIdMappingEvent to mod ArchitectureCraft
+[15:07:48] [Server thread/TRACE] [ArchitectureCraft/ArchitectureCraft]: Sent event FMLModIdMappingEvent to mod ArchitectureCraft
+[15:07:48] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - ArchitectureCraft took 0,000s
+[15:07:48] [Server thread/TRACE] [backhand/backhand]: Sending event FMLModIdMappingEvent to mod backhand
+[15:07:48] [Server thread/TRACE] [backhand/backhand]: Sent event FMLModIdMappingEvent to mod backhand
+[15:07:48] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Backhand took 0,000s
+[15:07:48] [Server thread/TRACE] [bdlib/bdlib]: Sending event FMLModIdMappingEvent to mod bdlib
+[15:07:48] [Server thread/TRACE] [bdlib/bdlib]: Sent event FMLModIdMappingEvent to mod bdlib
+[15:07:48] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - BD Lib took 0,001s
+[15:07:48] [Server thread/TRACE] [BetterAchievements/BetterAchievements]: Sending event FMLModIdMappingEvent to mod BetterAchievements
+[15:07:48] [Server thread/TRACE] [BetterAchievements/BetterAchievements]: Sent event FMLModIdMappingEvent to mod BetterAchievements
+[15:07:48] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Better Achievements took 0,000s
+[15:07:48] [Server thread/TRACE] [betterbuilderswands/betterbuilderswands]: Sending event FMLModIdMappingEvent to mod betterbuilderswands
+[15:07:48] [Server thread/TRACE] [betterbuilderswands/betterbuilderswands]: Sent event FMLModIdMappingEvent to mod betterbuilderswands
+[15:07:48] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Better Builder's Wands took 0,006s
+[15:07:48] [Server thread/TRACE] [betterquesting/betterquesting]: Sending event FMLModIdMappingEvent to mod betterquesting
+[15:07:48] [Server thread/TRACE] [betterquesting/betterquesting]: Sent event FMLModIdMappingEvent to mod betterquesting
+[15:07:48] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Better Questing took 0,000s
+[15:07:48] [Server thread/TRACE] [campfirebackport/campfirebackport]: Sending event FMLModIdMappingEvent to mod campfirebackport
+[15:07:48] [Server thread/TRACE] [campfirebackport/campfirebackport]: Sent event FMLModIdMappingEvent to mod campfirebackport
+[15:07:48] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Campfire Backport took 0,001s
+[15:07:48] [Server thread/TRACE] [chisel/chisel]: Sending event FMLModIdMappingEvent to mod chisel
+[15:07:48] [Server thread/TRACE] [chisel/chisel]: Sent event FMLModIdMappingEvent to mod chisel
+[15:07:48] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Chisel took 0,003s
+[15:07:48] [Server thread/TRACE] [CoFHCore/CoFHCore]: Sending event FMLModIdMappingEvent to mod CoFHCore
+[15:07:48] [Server thread/TRACE] [CoFHCore/CoFHCore]: Sent event FMLModIdMappingEvent to mod CoFHCore
+[15:07:48] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - CoFH Core took 0,000s
+[15:07:48] [Server thread/TRACE] [hbm/hbm]: Sending event FMLModIdMappingEvent to mod hbm
+[15:07:48] [Server thread/TRACE] [hbm/hbm]: Sent event FMLModIdMappingEvent to mod hbm
+[15:07:48] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Hbm's Nuclear Tech took 0,003s
+[15:07:48] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0,044s
+[15:07:48] [Server thread/INFO] [FML/]: Applying holder lookups
+[15:07:48] [Server thread/INFO] [FML/]: Holder lookups applied
+[15:07:49] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppedEvent to mod mcp
+[15:07:49] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppedEvent to mod mcp
+[15:07:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Coder Pack took 0,000s
+[15:07:49] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppedEvent to mod FML
+[15:07:49] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppedEvent to mod FML
+[15:07:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Forge Mod Loader took 0,000s
+[15:07:49] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppedEvent to mod Forge
+[15:07:49] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppedEvent to mod Forge
+[15:07:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Forge took 0,000s
+[15:07:49] [Server thread/TRACE] [appliedenergistics2-core/appliedenergistics2-core]: Sending event FMLServerStoppedEvent to mod appliedenergistics2-core
+[15:07:49] [Server thread/TRACE] [appliedenergistics2-core/appliedenergistics2-core]: Sent event FMLServerStoppedEvent to mod appliedenergistics2-core
+[15:07:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Applied Energistics 2 Core took 0,000s
+[15:07:49] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sending event FMLServerStoppedEvent to mod CodeChickenCore
+[15:07:49] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sent event FMLServerStoppedEvent to mod CodeChickenCore
+[15:07:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - CodeChicken Core took 0,001s
+[15:07:49] [Server thread/TRACE] [<CoFH ASM>/<CoFH ASM>]: Sending event FMLServerStoppedEvent to mod <CoFH ASM>
+[15:07:49] [Server thread/TRACE] [<CoFH ASM>/<CoFH ASM>]: Sent event FMLServerStoppedEvent to mod <CoFH ASM>
+[15:07:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - CoFH ASM took 0,000s
+[15:07:49] [Server thread/TRACE] [unimixins/unimixins]: Sending event FMLServerStoppedEvent to mod unimixins
+[15:07:49] [Server thread/TRACE] [unimixins/unimixins]: Sent event FMLServerStoppedEvent to mod unimixins
+[15:07:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - UniMixins took 0,000s
+[15:07:49] [Server thread/TRACE] [unimixins-mixin/unimixins-mixin]: Sending event FMLServerStoppedEvent to mod unimixins-mixin
+[15:07:49] [Server thread/TRACE] [unimixins-mixin/unimixins-mixin]: Sent event FMLServerStoppedEvent to mod unimixins-mixin
+[15:07:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - UniMixins: Mixin (UniMix) took 0,000s
+[15:07:49] [Server thread/TRACE] [unimixins-compat/unimixins-compat]: Sending event FMLServerStoppedEvent to mod unimixins-compat
+[15:07:49] [Server thread/TRACE] [unimixins-compat/unimixins-compat]: Sent event FMLServerStoppedEvent to mod unimixins-compat
+[15:07:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - UniMixins: Compatibility took 0,000s
+[15:07:49] [Server thread/TRACE] [mixingasm/mixingasm]: Sending event FMLServerStoppedEvent to mod mixingasm
+[15:07:49] [Server thread/TRACE] [mixingasm/mixingasm]: Sent event FMLServerStoppedEvent to mod mixingasm
+[15:07:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - UniMixins: Mixingasm took 0,000s
+[15:07:49] [Server thread/TRACE] [spongemixins/spongemixins]: Sending event FMLServerStoppedEvent to mod spongemixins
+[15:07:49] [Server thread/TRACE] [spongemixins/spongemixins]: Sent event FMLServerStoppedEvent to mod spongemixins
+[15:07:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - UniMixins: SpongeMixins took 0,000s
+[15:07:49] [Server thread/TRACE] [mixinbooterlegacy/mixinbooterlegacy]: Sending event FMLServerStoppedEvent to mod mixinbooterlegacy
+[15:07:49] [Server thread/TRACE] [mixinbooterlegacy/mixinbooterlegacy]: Sent event FMLServerStoppedEvent to mod mixinbooterlegacy
+[15:07:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - UniMixins: MixinBooterLegacy took 0,000s
+[15:07:49] [Server thread/TRACE] [gasstation/gasstation]: Sending event FMLServerStoppedEvent to mod gasstation
+[15:07:49] [Server thread/TRACE] [gasstation/gasstation]: Sent event FMLServerStoppedEvent to mod gasstation
+[15:07:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - UniMixins: GasStation took 0,000s
+[15:07:49] [Server thread/TRACE] [gtnhmixins/gtnhmixins]: Sending event FMLServerStoppedEvent to mod gtnhmixins
+[15:07:49] [Server thread/TRACE] [gtnhmixins/gtnhmixins]: Sent event FMLServerStoppedEvent to mod gtnhmixins
+[15:07:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - UniMixins: GTNHMixins took 0,000s
+[15:07:49] [Server thread/TRACE] [mixinextras/mixinextras]: Sending event FMLServerStoppedEvent to mod mixinextras
+[15:07:49] [Server thread/TRACE] [mixinextras/mixinextras]: Sent event FMLServerStoppedEvent to mod mixinextras
+[15:07:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - UniMixins: MixinExtras took 0,000s
+[15:07:49] [Server thread/TRACE] [ae2stuff/ae2stuff]: Sending event FMLServerStoppedEvent to mod ae2stuff
+[15:07:49] [Server thread/TRACE] [ae2stuff/ae2stuff]: Sent event FMLServerStoppedEvent to mod ae2stuff
+[15:07:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - AE2 Stuff took 0,000s
+[15:07:49] [Server thread/TRACE] [notfine/notfine]: Sending event FMLServerStoppedEvent to mod notfine
+[15:07:49] [Server thread/TRACE] [notfine/notfine]: Sent event FMLServerStoppedEvent to mod notfine
+[15:07:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - NotFine took 0,002s
+[15:07:49] [Server thread/TRACE] [mcpatcherforge/mcpatcherforge]: Sending event FMLServerStoppedEvent to mod mcpatcherforge
+[15:07:49] [Server thread/TRACE] [mcpatcherforge/mcpatcherforge]: Sent event FMLServerStoppedEvent to mod mcpatcherforge
+[15:07:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - MCPatcherForge took 0,000s
+[15:07:49] [Server thread/TRACE] [angelica/angelica]: Sending event FMLServerStoppedEvent to mod angelica
+[15:07:49] [Server thread/TRACE] [angelica/angelica]: Sent event FMLServerStoppedEvent to mod angelica
+[15:07:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Angelica took 0,000s
+[15:07:49] [Server thread/TRACE] [embeddium/embeddium]: Sending event FMLServerStoppedEvent to mod embeddium
+[15:07:49] [Server thread/TRACE] [embeddium/embeddium]: Sent event FMLServerStoppedEvent to mod embeddium
+[15:07:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Embeddium took 0,000s
+[15:07:49] [Server thread/TRACE] [AnimationAPI/AnimationAPI]: Sending event FMLServerStoppedEvent to mod AnimationAPI
+[15:07:49] [Server thread/TRACE] [AnimationAPI/AnimationAPI]: Sent event FMLServerStoppedEvent to mod AnimationAPI
+[15:07:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - AnimationAPI took 0,000s
+[15:07:49] [Server thread/TRACE] [AppleCore/AppleCore]: Sending event FMLServerStoppedEvent to mod AppleCore
+[15:07:49] [Server thread/TRACE] [AppleCore/AppleCore]: Sent event FMLServerStoppedEvent to mod AppleCore
+[15:07:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - AppleCore took 0,000s
+[15:07:49] [Server thread/TRACE] [appliedenergistics2/appliedenergistics2]: Sending event FMLServerStoppedEvent to mod appliedenergistics2
+[15:07:49] [Server thread/TRACE] [appliedenergistics2/appliedenergistics2]: Sent event FMLServerStoppedEvent to mod appliedenergistics2
+[15:07:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Applied Energistics 2 took 0,001s
+[15:07:49] [Server thread/TRACE] [ArchitectureCraft/ArchitectureCraft]: Sending event FMLServerStoppedEvent to mod ArchitectureCraft
+[15:07:49] [Server thread/TRACE] [ArchitectureCraft/ArchitectureCraft]: Sent event FMLServerStoppedEvent to mod ArchitectureCraft
+[15:07:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - ArchitectureCraft took 0,000s
+[15:07:49] [Server thread/TRACE] [backhand/backhand]: Sending event FMLServerStoppedEvent to mod backhand
+[15:07:49] [Server thread/TRACE] [backhand/backhand]: Sent event FMLServerStoppedEvent to mod backhand
+[15:07:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Backhand took 0,000s
+[15:07:49] [Server thread/TRACE] [bdlib/bdlib]: Sending event FMLServerStoppedEvent to mod bdlib
+[15:07:49] [Server thread/TRACE] [bdlib/bdlib]: Sent event FMLServerStoppedEvent to mod bdlib
+[15:07:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - BD Lib took 0,000s
+[15:07:49] [Server thread/TRACE] [BetterAchievements/BetterAchievements]: Sending event FMLServerStoppedEvent to mod BetterAchievements
+[15:07:49] [Server thread/TRACE] [BetterAchievements/BetterAchievements]: Sent event FMLServerStoppedEvent to mod BetterAchievements
+[15:07:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Better Achievements took 0,000s
+[15:07:49] [Server thread/TRACE] [betterbuilderswands/betterbuilderswands]: Sending event FMLServerStoppedEvent to mod betterbuilderswands
+[15:07:49] [Server thread/TRACE] [betterbuilderswands/betterbuilderswands]: Sent event FMLServerStoppedEvent to mod betterbuilderswands
+[15:07:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Better Builder's Wands took 0,001s
+[15:07:49] [Server thread/TRACE] [betterquesting/betterquesting]: Sending event FMLServerStoppedEvent to mod betterquesting
+[15:07:49] [Server thread/TRACE] [betterquesting/betterquesting]: Sent event FMLServerStoppedEvent to mod betterquesting
+[15:07:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Better Questing took 0,000s
+[15:07:49] [Server thread/TRACE] [campfirebackport/campfirebackport]: Sending event FMLServerStoppedEvent to mod campfirebackport
+[15:07:49] [Server thread/TRACE] [campfirebackport/campfirebackport]: Sent event FMLServerStoppedEvent to mod campfirebackport
+[15:07:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Campfire Backport took 0,001s
+[15:07:49] [Server thread/TRACE] [chisel/chisel]: Sending event FMLServerStoppedEvent to mod chisel
+[15:07:49] [Server thread/TRACE] [chisel/chisel]: Sent event FMLServerStoppedEvent to mod chisel
+[15:07:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Chisel took 0,001s
+[15:07:49] [Server thread/TRACE] [CoFHCore/CoFHCore]: Sending event FMLServerStoppedEvent to mod CoFHCore
+[15:07:49] [Server thread/TRACE] [CoFHCore/CoFHCore]: Sent event FMLServerStoppedEvent to mod CoFHCore
+[15:07:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - CoFH Core took 0,001s
+[15:07:49] [Server thread/TRACE] [hbm/hbm]: Sending event FMLServerStoppedEvent to mod hbm
+[15:07:49] [Server thread/TRACE] [hbm/hbm]: Sent event FMLServerStoppedEvent to mod hbm
+[15:07:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Hbm's Nuclear Tech took 0,004s
+[15:07:49] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopped took 0,018s
+[15:07:49] [Server thread/INFO] [FML/]: The state engine was in incorrect state CONSTRUCTING and forced into state SERVER_STOPPED. Errors may have been discarded.
